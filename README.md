@@ -1041,7 +1041,7 @@ training/analysis is not implemented." No file under `fd_scripts/` can read
 If you use this code or the audited partition, please cite both this repository and the
 underlying TeaLeafBD release. `CITATION.cff` has the machine-readable version.
 
-Authors: MD Shaifullah Sharafat, Nilavro Das Kabya, Md Nahin Alam and Mehrab Karim Opee
+Authors: MD Shaifullah Sharafat, Md Nahin Alam, Mehrab Karim Opee, Nilavro Das Kabya
 (Electrical and Computer Engineering, North South University), Mohammad Aminul Islam (Plant
 Pathology, Habiganj Agricultural University), and Riasat Khan (Electrical and Computer
 Engineering, North South University).
