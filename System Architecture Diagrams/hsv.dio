@@ -1,0 +1,179 @@
+<mxfile host="65bd71144e">
+    <diagram id="W4n6kjxqrLykGSeYXIiM" name="Page-1">
+        <mxGraphModel dx="3024" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="19" value="HSV branch" style="swimlane;startSize=40;fontFamily=Georgia;fontSize=20;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="-380" y="510" width="780" height="190" as="geometry">
+                        <mxRectangle x="50" y="240" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="group;strokeWidth=3;" parent="19" vertex="1" connectable="0">
+                    <mxGeometry x="250" y="60" width="500" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Tahoma&quot;&gt;RGB→HSV&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Tahoma&quot;&gt;Raw HSV&lt;b&gt;:&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;i style=&quot;&quot;&gt;hsv&lt;/i&gt;&lt;sub style=&quot;&quot;&gt;&lt;i&gt;in&lt;/i&gt;&lt;/sub&gt;&amp;nbsp;∈ R&lt;sup style=&quot;&quot;&gt;3 x 224 x 224&lt;/sup&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Tahoma&quot;&gt;Optional:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Tahoma&quot;&gt;[sin(2&lt;span style=&quot;color: rgb(118, 118, 118); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;π&lt;/span&gt;H), cos(2&lt;span style=&quot;color: rgb(118, 118, 118); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;π&lt;/span&gt;H), S, V ] (Cin = 4)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#fad7ac;strokeColor=#b46504;" parent="32" vertex="1">
+                    <mxGeometry width="300" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;HSV encoder&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Conv(3x3, s=2, 16)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Conv(3x3, s=2, 32)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;GAP → 32&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Linear → 128&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(small CNN + GAP)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#fad9d5;strokeColor=#ae4132;" parent="32" vertex="1">
+                    <mxGeometry x="340" width="160" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="32" source="16" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="19" source="8" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Unnormalize + clamp&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;x&lt;sub&gt;norm&lt;/sub&gt;&amp;nbsp;→ x&lt;sub&gt;rgb01&lt;/sub&gt;&amp;nbsp;∈&amp;nbsp; [0, 1]&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=14;strokeWidth=3;fillColor=#cdeb8b;strokeColor=#36393d;" parent="19" vertex="1">
+                    <mxGeometry x="30" y="72.78" width="190" height="84.44" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Gated fusion" style="swimlane;startSize=40;fontFamily=Georgia;fontSize=20;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="330" width="570" height="370" as="geometry">
+                        <mxRectangle x="50" y="240" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" parent="52" source="31" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Residual fusion&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;z&lt;/b&gt;&lt;/font&gt;&lt;i style=&quot;font-size: 14px;&quot;&gt;=&lt;b&gt;f&lt;sub&gt;rgb&lt;/sub&gt;&lt;/b&gt; &lt;/i&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;+ &lt;b&gt;α(t) &lt;/b&gt;(&lt;b&gt;g&lt;/b&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;sub&gt;768&lt;/sub&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;⊙&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;b&gt;p&lt;/b&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="52" vertex="1">
+                    <mxGeometry x="370" y="164" width="185" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" parent="52" source="34" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="241" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="463" y="300"/>
+                            <mxPoint x="463" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" parent="52" source="36" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="170" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="463" y="100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" parent="52" source="35" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;Concat&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;u = [f&lt;/span&gt;&lt;sub style=&quot;font-size: 14px;&quot;&gt;rgb&amp;nbsp;&lt;/sub&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;; h] ∈ R&lt;/span&gt;&lt;span style=&quot;font-size: 11.6667px;&quot;&gt;&lt;sup&gt;896&lt;/sup&gt;&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="52" vertex="1">
+                    <mxGeometry x="33.66" y="70" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Gate MLP + Sigmoid&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;i style=&quot;color: rgb(63, 63, 63); font-size: 14px; font-family: Tahoma; background-color: transparent;&quot;&gt;scalar: g ∈ (0,1)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;vector: g ∈ (0,1)&lt;/i&gt;&lt;sup style=&quot;&quot;&gt;768&lt;/sup&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#cce5ff;strokeColor=#36393d;" parent="52" vertex="1">
+                    <mxGeometry x="222.68" y="70" width="165" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="52" source="31" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;h ∈ R&lt;sup&gt;d&lt;/sup&gt;&lt;sup&gt;hsv&lt;/sup&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;(d&lt;sub&gt;hsv&lt;/sub&gt;&amp;nbsp;= 128)&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="52" vertex="1">
+                    <mxGeometry x="25" y="270" width="167.32394366197184" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px;&quot;&gt;&lt;font face=&quot;Tahoma&quot;&gt;HSV projection&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;p = Linear(Dropout(h))&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;p = W&lt;sub&gt;p&amp;nbsp;&lt;/sub&gt;h ∈ R&lt;sup&gt;768&lt;/sup&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="52" vertex="1">
+                    <mxGeometry x="222.68" y="270" width="167.32" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="&amp;nbsp;(p denotes projected HSV features)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="52" vertex="1">
+                    <mxGeometry x="201.34000000000006" y="340" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="RGB branch" style="swimlane;startSize=40;fontFamily=Georgia;fontSize=20;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="329" width="490" height="170" as="geometry">
+                        <mxRectangle x="50" y="240" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="" style="group;strokeWidth=3;" parent="65" vertex="1" connectable="0">
+                    <mxGeometry x="80" y="71" width="360" height="60.00000000000003" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="63" source="13" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Tahoma&quot;&gt;Swin-Small Backbone&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Tahoma&quot;&gt;(patch 4, win 7)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#eeeeee;strokeColor=#36393d;" parent="63" vertex="1">
+                    <mxGeometry y="2.842170943040401e-14" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font face=&quot;Tahoma&quot;&gt;&lt;span&gt;&lt;i&gt;f&lt;/i&gt;&lt;sub&gt;rgb&lt;/sub&gt; ∈ R&lt;sup&gt;768&amp;nbsp;&lt;/sup&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Tahoma; background-color: transparent;&quot;&gt;(GAP output)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=3;fillColor=#eeeeee;strokeColor=#36393d;" parent="63" vertex="1">
+                    <mxGeometry x="190" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="17" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="group;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1010" y="499" width="355" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="85" source="50" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Classification Head&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;MLP / Linear&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="85" vertex="1">
+                    <mxGeometry x="9" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;font face=&quot;Tahoma&quot;&gt;Logits&amp;nbsp;&lt;/font&gt;&lt;i style=&quot;background-color: transparent; color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Tahoma;&quot;&gt;∈&amp;nbsp;&lt;/i&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Tahoma; background-color: transparent;&quot;&gt;&amp;nbsp;R&lt;/span&gt;&lt;sup style=&quot;color: rgb(63, 63, 63); font-family: Tahoma; background-color: transparent;&quot;&gt;&lt;i&gt;k&lt;/i&gt;&lt;/sup&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="85" vertex="1">
+                    <mxGeometry x="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=none;html=1;strokeWidth=3;" parent="1" source="37" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="&lt;pre&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;Swin-Small yields a 768-d global RGB feature, while the HSV branch remains lightweight.&amp;nbsp;&lt;br&gt;Vector gating and sin–cos hue encoding are included as ablation variants.&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="710" width="540" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="group;strokeWidth=3;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="120" y="230" width="560" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="RGB+HSV Gated Fusion Network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;fontSize=27;strokeWidth=3;" parent="94" vertex="1">
+                    <mxGeometry x="70" width="430" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Swin small backbone(RGB) +&amp;nbsp; HSV color encoder + gating + residual feature fusion&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" parent="94" vertex="1">
+                    <mxGeometry y="40" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="15" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Input x ∈ R&lt;sup&gt;3 x 224 x 224&lt;/sup&gt;" style="whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=14;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="-540" y="387.77777777777777" width="197.89473684210526" height="84.44444444444444" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="7" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;ImageNet Normalization&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;x → x&lt;sub&gt;norm&lt;/sub&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=14;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="-310.0047368421053" y="387.78" width="197.89473684210526" height="84.44444444444444" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.45;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;dashed=1;" parent="1" source="6" target="8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-470" y="640" as="sourcePoint"/>
+                        <mxPoint x="-420" y="590" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-451" y="625"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" value="" style="group;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="550" y="504" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" style="edgeStyle=entityRelationEdgeStyle;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" parent="112" source="111" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="111" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" parent="112" vertex="1">
+                    <mxGeometry width="210" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="" style="group;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="112" vertex="1" connectable="0">
+                    <mxGeometry y="9.997647058823532" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font&gt;t&lt;/font&gt;&lt;hr&gt;T&lt;sub&gt;warmup&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;fontSize=6;spacing=0;" parent="109" vertex="1">
+                    <mxGeometry x="64.99727272727273" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap; color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;&lt;font style=&quot;&quot;&gt;α(t) =&lt;/font&gt; &lt;font style=&quot;&quot;&gt;min(1&lt;/font&gt;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;font style=&quot;&quot;&gt;)&amp;nbsp;&lt;/font&gt;,&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap; color: rgb(0, 0, 0);&quot;&gt;T&lt;/span&gt;&lt;sub style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap; color: rgb(63, 63, 63);&quot;&gt;warmup&lt;/sub&gt;&lt;/font&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-wrap-mode: nowrap; color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;&quot;&gt;=&lt;/font&gt; &lt;font style=&quot;&quot;&gt;5 epochs&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;strokeWidth=3;" parent="109" vertex="1">
+                    <mxGeometry y="0.0023529411765252917" width="220" height="27.65" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="89" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="" style="edgeStyle=entityRelationEdgeStyle;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" parent="1" source="111" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

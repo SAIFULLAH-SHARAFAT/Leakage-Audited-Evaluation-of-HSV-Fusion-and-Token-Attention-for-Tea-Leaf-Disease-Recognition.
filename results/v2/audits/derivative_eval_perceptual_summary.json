@@ -1,0 +1,13 @@
+{
+  "campaign_id": "tea_leaf_v2",
+  "manifest_sha256": "d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d",
+  "n_derivatives_screened": 2119,
+  "n_eval_images_screened": 1624,
+  "phash_max": 8,
+  "cosine_min": 0.92,
+  "link_mode": "both",
+  "embed_model": "resnet50",
+  "n_linked_derivative_eval_pairs": 0,
+  "status": "PASS",
+  "non_destructive": true
+}

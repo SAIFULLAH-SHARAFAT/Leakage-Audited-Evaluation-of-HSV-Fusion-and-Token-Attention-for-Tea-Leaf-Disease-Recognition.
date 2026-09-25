@@ -1,0 +1,74 @@
+{
+  "campaign_id": "tea_leaf_v2",
+  "experiment": "TLA",
+  "seed": 42,
+  "run_name": "TLA_s42",
+  "command": [
+    "C:\\Users\\USER\\Documents\\Tea_leaf_experiments\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\USER\\Documents\\Tea_leaf_experiments\\src\\train_token_models.py",
+    "--exp_name",
+    "TLA_s42",
+    "--run_dir",
+    "C:\\Users\\USER\\Documents\\Tea_leaf_experiments\\results\\v2\\runs",
+    "--data_root",
+    "C:\\Users\\USER\\Documents\\Tea_leaf_experiments\\data\\Tea_leaf_dataset",
+    "--ckpt_temp_dir",
+    "C:\\Users\\USER\\Documents\\Tea_leaf_experiments\\results\\v2\\ckpt\\TLA_s42",
+    "--seed",
+    "42",
+    "--campaign_id",
+    "tea_leaf_v2",
+    "--auto_resume",
+    "--pretrained",
+    "--use_ema",
+    "--compute_val_auc",
+    "--epochs",
+    "100",
+    "--batch_size",
+    "32",
+    "--gradient_accumulation_steps",
+    "2",
+    "--lr",
+    "0.0001",
+    "--drop_path_rate",
+    "0.2",
+    "--gate_warmup_epochs",
+    "10",
+    "--hue_jitter",
+    "0.0",
+    "--num_workers",
+    "0",
+    "--no_dp",
+    "--strict_final_counts",
+    "--arch",
+    "tcca"
+  ],
+  "dataset_manifest_sha256": "d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d",
+  "hf_dataset_lock": {
+    "status": "local_manifest_verified",
+    "resolved_commit_sha": null,
+    "manifest_sha256": "d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d",
+    "note": "Local dataset; historical remote commit not inferred"
+  },
+  "sources": {
+    "train_script": {
+      "path": "src\\train_token_models.py",
+      "sha256": "848624fc6d6cad4d69635c990255af7c2157c72682e5fe83c91a401fd97cceae"
+    },
+    "experiment_yaml": {
+      "path": "configs\\experiments.yaml",
+      "sha256": "afd6a37912ca883b765a74ad38d1e35fc746d3a58a60a0aa34115ff0297df137"
+    },
+    "shared_swin_script": {
+      "path": "src/train_swin_three_models.py",
+      "sha256": "bb896a4a38f05b3aa4aee6712983c5caea139552bccc541bec3ab51f532babe5"
+    },
+    "training_contracts": {
+      "path": "src/training_contracts.py",
+      "sha256": "93e42d1765179f9068ea478618b4706a888de014a46033b4b7132e24591a3c1b"
+    }
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "recorded_utc": "2026-09-22T10:33:55.933722+00:00"
+}

@@ -1,0 +1,13 @@
+                     precision    recall  f1-score   support
+
+       Brown Blight     0.9259    0.8721    0.8982        86
+        Gray Blight     0.9333    0.9625    0.9477       160
+    Green mirid bug     0.9884    0.9497    0.9687       179
+       Healthy leaf     1.0000    0.9929    0.9964       141
+         Helopeltis     0.9663    0.9663    0.9663        89
+         Red spider     0.9474    0.9600    0.9536        75
+Tea algal leaf spot     0.8471    0.9231    0.8834        78
+
+           accuracy                         0.9517       808
+          macro avg     0.9441    0.9467    0.9449       808
+       weighted avg     0.9530    0.9517    0.9520       808

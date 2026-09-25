@@ -1,0 +1,75 @@
+{
+  "campaign_id": "tea_leaf_v2",
+  "experiment": "R0",
+  "seed": 2026,
+  "run_name": "R0_s2026",
+  "command": [
+    "/SLURM/home/slurm_g202621260/.conda/envs/tealeaf/bin/python",
+    "/SLURM/home/slurm_g202621260/tealeaf/src/train_swin_three_models.py",
+    "--exp_name",
+    "R0_s2026",
+    "--run_dir",
+    "/SLURM/home/slurm_g202621260/tealeaf/results/v2/runs",
+    "--data_root",
+    "/SLURM/home/slurm_g202621260/tealeaf/data/Tea_leaf_dataset",
+    "--ckpt_temp_dir",
+    "/SLURM/home/slurm_g202621260/tealeaf/results/v2/ckpt/R0_s2026",
+    "--seed",
+    "2026",
+    "--campaign_id",
+    "tea_leaf_v2",
+    "--auto_resume",
+    "--model_name",
+    "swin_small_patch4_window7_224.ms_in1k",
+    "--pretrained",
+    "--use_ema",
+    "--compute_val_auc",
+    "--epochs",
+    "100",
+    "--batch_size",
+    "64",
+    "--gradient_accumulation_steps",
+    "1",
+    "--lr",
+    "0.0005",
+    "--drop_path_rate",
+    "0.2",
+    "--gate_warmup_epochs",
+    "5",
+    "--hue_jitter",
+    "0.0",
+    "--num_workers",
+    "0",
+    "--no_dp",
+    "--strict_final_counts",
+    "--log_init_scale_diagnostics"
+  ],
+  "dataset_manifest_sha256": "d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d",
+  "hf_dataset_lock": {
+    "status": "local_manifest_verified",
+    "resolved_commit_sha": null,
+    "manifest_sha256": "d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d",
+    "note": "Local dataset; historical remote commit not inferred"
+  },
+  "sources": {
+    "train_script": {
+      "path": "src/train_swin_three_models.py",
+      "sha256": "a9fa5f8170cfd2c898d58e31040ff5d54b6b38e45f06c969e7b92850829d094f"
+    },
+    "experiment_yaml": {
+      "path": "configs/experiments.yaml",
+      "sha256": "bacb549e83c472106e10f6fda8dfa2e0777ead784147a2b2af789d4c3bad2cb8"
+    },
+    "shared_swin_script": {
+      "path": "src/train_swin_three_models.py",
+      "sha256": "a9fa5f8170cfd2c898d58e31040ff5d54b6b38e45f06c969e7b92850829d094f"
+    },
+    "training_contracts": {
+      "path": "src/training_contracts.py",
+      "sha256": "97abcc1cbc398eb3b0d6732f98ff60107f4910007aef0af43ddbb91646aa6354"
+    }
+  },
+  "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:25:55) [GCC 14.3.0]",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "recorded_utc": "2026-09-21T23:00:05.601966+00:00"
+}

@@ -1,0 +1,457 @@
+run,experiment,seed,perturbation,group,macro_f1,clean_contract,device
+R0_s1337,R0,1337,unperturbed,unperturbed,0.9378440250932112,,
+R0_s1337,R0,1337,brightness_up,brightness/contrast,0.934053528089832,,
+R0_s1337,R0,1337,brightness_down,brightness/contrast,0.8977128199088498,,
+R0_s1337,R0,1337,contrast_low,brightness/contrast,0.9342798353674976,,
+R0_s1337,R0,1337,contrast_high,brightness/contrast,0.9318024070139268,,
+R0_s1337,R0,1337,saturation_low,saturation,0.92710995695857,,
+R0_s1337,R0,1337,saturation_high,saturation,0.9302551144440506,,
+R0_s1337,R0,1337,hue_pos,hue shift,0.8988029925923259,,
+R0_s1337,R0,1337,hue_neg,hue shift,0.894703259437797,,
+R0_s1337,R0,1337,noise_light,gaussian noise,0.8628384531275224,,
+R0_s1337,R0,1337,noise_heavy,gaussian noise,0.2998734605297234,,
+R0_s1337,R0,1337,blur_light,blur,0.8712412192342874,,
+R0_s1337,R0,1337,blur_heavy,blur,0.4348083378359473,,
+R0_s1337,R0,1337,jpeg_q60,jpeg compression,0.8164032836511368,,
+R0_s1337,R0,1337,jpeg_q30,jpeg compression,0.7125910146915705,,
+R0_s1337,R0,1337,shadow_left,shadow,0.9352949846777452,,
+R0_s1337,R0,1337,shadow_right,shadow,0.9344539821316962,,
+R0_s1337,R0,1337,wb_warm,white balance,0.9240200223062284,,
+R0_s1337,R0,1337,wb_cool,white balance,0.9154009762817614,,
+R1_s1337,R1,1337,unperturbed,unperturbed,0.9427857726834312,,
+R1_s1337,R1,1337,brightness_up,brightness/contrast,0.9358618518991036,,
+R1_s1337,R1,1337,brightness_down,brightness/contrast,0.9061960708735436,,
+R1_s1337,R1,1337,contrast_low,brightness/contrast,0.941318921357358,,
+R1_s1337,R1,1337,contrast_high,brightness/contrast,0.9345158376279432,,
+R1_s1337,R1,1337,saturation_low,saturation,0.9415082451643996,,
+R1_s1337,R1,1337,saturation_high,saturation,0.9429802159905768,,
+R1_s1337,R1,1337,hue_pos,hue shift,0.8894471904062347,,
+R1_s1337,R1,1337,hue_neg,hue shift,0.8786191143566867,,
+R1_s1337,R1,1337,noise_light,gaussian noise,0.8813727021928216,,
+R1_s1337,R1,1337,noise_heavy,gaussian noise,0.3145616267464191,,
+R1_s1337,R1,1337,blur_light,blur,0.8787588536087523,,
+R1_s1337,R1,1337,blur_heavy,blur,0.4180034261180176,,
+R1_s1337,R1,1337,jpeg_q60,jpeg compression,0.8206211729339473,,
+R1_s1337,R1,1337,jpeg_q30,jpeg compression,0.7208671834616414,,
+R1_s1337,R1,1337,shadow_left,shadow,0.945362868925099,,
+R1_s1337,R1,1337,shadow_right,shadow,0.9433067395656508,,
+R1_s1337,R1,1337,wb_warm,white balance,0.9243857182841124,,
+R1_s1337,R1,1337,wb_cool,white balance,0.9274807773730566,,
+R2_s1337,R2,1337,unperturbed,unperturbed,0.9395520231073948,,
+R2_s1337,R2,1337,brightness_up,brightness/contrast,0.9414235267712636,,
+R2_s1337,R2,1337,brightness_down,brightness/contrast,0.8973468563783145,,
+R2_s1337,R2,1337,contrast_low,brightness/contrast,0.9399311571726284,,
+R2_s1337,R2,1337,contrast_high,brightness/contrast,0.9301045638114324,,
+R2_s1337,R2,1337,saturation_low,saturation,0.9339276344379612,,
+R2_s1337,R2,1337,saturation_high,saturation,0.9347909907132536,,
+R2_s1337,R2,1337,hue_pos,hue shift,0.8996560461631906,,
+R2_s1337,R2,1337,hue_neg,hue shift,0.8896477971517631,,
+R2_s1337,R2,1337,noise_light,gaussian noise,0.8692161007825538,,
+R2_s1337,R2,1337,noise_heavy,gaussian noise,0.3200655636446091,,
+R2_s1337,R2,1337,blur_light,blur,0.8833402546587884,,
+R2_s1337,R2,1337,blur_heavy,blur,0.4696344391680774,,
+R2_s1337,R2,1337,jpeg_q60,jpeg compression,0.8448334990181056,,
+R2_s1337,R2,1337,jpeg_q30,jpeg compression,0.7676079747509622,,
+R2_s1337,R2,1337,shadow_left,shadow,0.9428300420815804,,
+R2_s1337,R2,1337,shadow_right,shadow,0.934748482708992,,
+R2_s1337,R2,1337,wb_warm,white balance,0.9334154647911304,,
+R2_s1337,R2,1337,wb_cool,white balance,0.9235236894320072,,
+R3_s1337,R3,1337,unperturbed,unperturbed,0.93823877555627,,
+R3_s1337,R3,1337,brightness_up,brightness/contrast,0.9331564243202584,,
+R3_s1337,R3,1337,brightness_down,brightness/contrast,0.8925581537868305,,
+R3_s1337,R3,1337,contrast_low,brightness/contrast,0.9369078245778591,,
+R3_s1337,R3,1337,contrast_high,brightness/contrast,0.9323453506693762,,
+R3_s1337,R3,1337,saturation_low,saturation,0.9170773970394636,,
+R3_s1337,R3,1337,saturation_high,saturation,0.937810565194021,,
+R3_s1337,R3,1337,hue_pos,hue shift,0.888154001078522,,
+R3_s1337,R3,1337,hue_neg,hue shift,0.8835926601792138,,
+R3_s1337,R3,1337,noise_light,gaussian noise,0.88482170493471,,
+R3_s1337,R3,1337,noise_heavy,gaussian noise,0.5361254778926736,,
+R3_s1337,R3,1337,blur_light,blur,0.8876408880123373,,
+R3_s1337,R3,1337,blur_heavy,blur,0.6250073011680144,,
+R3_s1337,R3,1337,jpeg_q60,jpeg compression,0.8293869558647702,,
+R3_s1337,R3,1337,jpeg_q30,jpeg compression,0.7718119840287629,,
+R3_s1337,R3,1337,shadow_left,shadow,0.9393290302001917,,
+R3_s1337,R3,1337,shadow_right,shadow,0.9263946175448784,,
+R3_s1337,R3,1337,wb_warm,white balance,0.931792793436004,,
+R3_s1337,R3,1337,wb_cool,white balance,0.91291463107086,,
+C1_s1337,C1,1337,unperturbed,unperturbed,0.9540359191590588,,
+C1_s1337,C1,1337,brightness_up,brightness/contrast,0.9489125366669012,,
+C1_s1337,C1,1337,brightness_down,brightness/contrast,0.9218380028514804,,
+C1_s1337,C1,1337,contrast_low,brightness/contrast,0.9498906382163104,,
+C1_s1337,C1,1337,contrast_high,brightness/contrast,0.9425575290325044,,
+C1_s1337,C1,1337,saturation_low,saturation,0.9538493415839744,,
+C1_s1337,C1,1337,saturation_high,saturation,0.954668522184258,,
+C1_s1337,C1,1337,hue_pos,hue shift,0.9179917434188408,,
+C1_s1337,C1,1337,hue_neg,hue shift,0.8979404929046064,,
+C1_s1337,C1,1337,noise_light,gaussian noise,0.9191772497996789,,
+C1_s1337,C1,1337,noise_heavy,gaussian noise,0.8130826449986209,,
+C1_s1337,C1,1337,blur_light,blur,0.8941284543521342,,
+C1_s1337,C1,1337,blur_heavy,blur,0.734663032600052,,
+C1_s1337,C1,1337,jpeg_q60,jpeg compression,0.874913694986657,,
+C1_s1337,C1,1337,jpeg_q30,jpeg compression,0.8092002622798594,,
+C1_s1337,C1,1337,shadow_left,shadow,0.9506166182223612,,
+C1_s1337,C1,1337,shadow_right,shadow,0.9544789027044104,,
+C1_s1337,C1,1337,wb_warm,white balance,0.9359058413347044,,
+C1_s1337,C1,1337,wb_cool,white balance,0.9499971271418034,,
+TLA_s1337,TLA,1337,unperturbed,unperturbed,0.952537883447853,,
+TLA_s1337,TLA,1337,brightness_up,brightness/contrast,0.9540512366174392,,
+TLA_s1337,TLA,1337,brightness_down,brightness/contrast,0.9111465093623952,,
+TLA_s1337,TLA,1337,contrast_low,brightness/contrast,0.9523691644158008,,
+TLA_s1337,TLA,1337,contrast_high,brightness/contrast,0.9332081750616712,,
+TLA_s1337,TLA,1337,saturation_low,saturation,0.9502603081342604,,
+TLA_s1337,TLA,1337,saturation_high,saturation,0.9502828424680104,,
+TLA_s1337,TLA,1337,hue_pos,hue shift,0.9248379325574296,,
+TLA_s1337,TLA,1337,hue_neg,hue shift,0.892012793152506,,
+TLA_s1337,TLA,1337,noise_light,gaussian noise,0.9054385614768552,,
+TLA_s1337,TLA,1337,noise_heavy,gaussian noise,0.8157890622188394,,
+TLA_s1337,TLA,1337,blur_light,blur,0.907840204140358,,
+TLA_s1337,TLA,1337,blur_heavy,blur,0.7703249749312907,,
+TLA_s1337,TLA,1337,jpeg_q60,jpeg compression,0.8771197920832784,,
+TLA_s1337,TLA,1337,jpeg_q30,jpeg compression,0.8114690008376672,,
+TLA_s1337,TLA,1337,shadow_left,shadow,0.9511340702324548,,
+TLA_s1337,TLA,1337,shadow_right,shadow,0.9473223740894264,,
+TLA_s1337,TLA,1337,wb_warm,white balance,0.9476801348988108,,
+TLA_s1337,TLA,1337,wb_cool,white balance,0.94228464375225,,
+C2_s1337,C2,1337,unperturbed,unperturbed,0.9547674685455674,,
+C2_s1337,C2,1337,brightness_up,brightness/contrast,0.9537387489420344,,
+C2_s1337,C2,1337,brightness_down,brightness/contrast,0.9139689548578804,,
+C2_s1337,C2,1337,contrast_low,brightness/contrast,0.9490600089982214,,
+C2_s1337,C2,1337,contrast_high,brightness/contrast,0.9484540828910164,,
+C2_s1337,C2,1337,saturation_low,saturation,0.9537786962282172,,
+C2_s1337,C2,1337,saturation_high,saturation,0.9509372427589786,,
+C2_s1337,C2,1337,hue_pos,hue shift,0.9321973458609524,,
+C2_s1337,C2,1337,hue_neg,hue shift,0.8988638239816057,,
+C2_s1337,C2,1337,noise_light,gaussian noise,0.9213034316905596,,
+C2_s1337,C2,1337,noise_heavy,gaussian noise,0.7995977941086686,,
+C2_s1337,C2,1337,blur_light,blur,0.8947481259040283,,
+C2_s1337,C2,1337,blur_heavy,blur,0.7150729590840389,,
+C2_s1337,C2,1337,jpeg_q60,jpeg compression,0.8696122719199354,,
+C2_s1337,C2,1337,jpeg_q30,jpeg compression,0.7983446931755153,,
+C2_s1337,C2,1337,shadow_left,shadow,0.9522702857821754,,
+C2_s1337,C2,1337,shadow_right,shadow,0.953636771142139,,
+C2_s1337,C2,1337,wb_warm,white balance,0.9509000334983831,,
+C2_s1337,C2,1337,wb_cool,white balance,0.9550304583396364,,
+C4_s1337,C4,1337,unperturbed,unperturbed,0.9467319075238012,,
+C4_s1337,C4,1337,brightness_up,brightness/contrast,0.9495001478636568,,
+C4_s1337,C4,1337,brightness_down,brightness/contrast,0.8994643709739921,,
+C4_s1337,C4,1337,contrast_low,brightness/contrast,0.9477857594921592,,
+C4_s1337,C4,1337,contrast_high,brightness/contrast,0.9394364523525152,,
+C4_s1337,C4,1337,saturation_low,saturation,0.9392129960636842,,
+C4_s1337,C4,1337,saturation_high,saturation,0.9477060247066704,,
+C4_s1337,C4,1337,hue_pos,hue shift,0.9138500188066128,,
+C4_s1337,C4,1337,hue_neg,hue shift,0.8886608603440717,,
+C4_s1337,C4,1337,noise_light,gaussian noise,0.9078097542802624,,
+C4_s1337,C4,1337,noise_heavy,gaussian noise,0.793700178207649,,
+C4_s1337,C4,1337,blur_light,blur,0.8882211328818669,,
+C4_s1337,C4,1337,blur_heavy,blur,0.7277223288300109,,
+C4_s1337,C4,1337,jpeg_q60,jpeg compression,0.8547802882219843,,
+C4_s1337,C4,1337,jpeg_q30,jpeg compression,0.7830487414506552,,
+C4_s1337,C4,1337,shadow_left,shadow,0.9493395268832376,,
+C4_s1337,C4,1337,shadow_right,shadow,0.9417446027875676,,
+C4_s1337,C4,1337,wb_warm,white balance,0.9345649347841164,,
+C4_s1337,C4,1337,wb_cool,white balance,0.9341202099802824,,
+R0_s2026,R0,2026,unperturbed,unperturbed,0.9435728950114228,exact,cuda
+R0_s2026,R0,2026,brightness_up,brightness/contrast,0.9390998524763982,exact,cuda
+R0_s2026,R0,2026,brightness_down,brightness/contrast,0.9040315106624712,exact,cuda
+R0_s2026,R0,2026,contrast_low,brightness/contrast,0.9420582113216932,exact,cuda
+R0_s2026,R0,2026,contrast_high,brightness/contrast,0.9341058705618016,exact,cuda
+R0_s2026,R0,2026,saturation_low,saturation,0.932182928134062,exact,cuda
+R0_s2026,R0,2026,saturation_high,saturation,0.9347805478005096,exact,cuda
+R0_s2026,R0,2026,hue_pos,hue shift,0.8925494379138247,exact,cuda
+R0_s2026,R0,2026,hue_neg,hue shift,0.8768434584875999,exact,cuda
+R0_s2026,R0,2026,noise_light,gaussian noise,0.8506418239038122,exact,cuda
+R0_s2026,R0,2026,noise_heavy,gaussian noise,0.4193334186506317,exact,cuda
+R0_s2026,R0,2026,blur_light,blur,0.868054781263332,exact,cuda
+R0_s2026,R0,2026,blur_heavy,blur,0.4556590836585861,exact,cuda
+R0_s2026,R0,2026,jpeg_q60,jpeg compression,0.8403626658489655,exact,cuda
+R0_s2026,R0,2026,jpeg_q30,jpeg compression,0.760782132394396,exact,cuda
+R0_s2026,R0,2026,shadow_left,shadow,0.948081199512104,exact,cuda
+R0_s2026,R0,2026,shadow_right,shadow,0.9384413362305102,exact,cuda
+R0_s2026,R0,2026,wb_warm,white balance,0.9328538356562917,exact,cuda
+R0_s2026,R0,2026,wb_cool,white balance,0.9176362979841644,exact,cuda
+R1_s2026,R1,2026,unperturbed,unperturbed,0.9463352540607392,exact,cuda
+R1_s2026,R1,2026,brightness_up,brightness/contrast,0.9438623986029476,exact,cuda
+R1_s2026,R1,2026,brightness_down,brightness/contrast,0.8964828379031194,exact,cuda
+R1_s2026,R1,2026,contrast_low,brightness/contrast,0.9384171658285012,exact,cuda
+R1_s2026,R1,2026,contrast_high,brightness/contrast,0.9299482734553486,exact,cuda
+R1_s2026,R1,2026,saturation_low,saturation,0.9274293842102728,exact,cuda
+R1_s2026,R1,2026,saturation_high,saturation,0.9328316670776428,exact,cuda
+R1_s2026,R1,2026,hue_pos,hue shift,0.887755571901326,exact,cuda
+R1_s2026,R1,2026,hue_neg,hue shift,0.8861702626478776,exact,cuda
+R1_s2026,R1,2026,noise_light,gaussian noise,0.8830525077963319,exact,cuda
+R1_s2026,R1,2026,noise_heavy,gaussian noise,0.2560448222061844,exact,cuda
+R1_s2026,R1,2026,blur_light,blur,0.8573775174922077,exact,cuda
+R1_s2026,R1,2026,blur_heavy,blur,0.3795697798143529,exact,cuda
+R1_s2026,R1,2026,jpeg_q60,jpeg compression,0.8341763119372365,exact,cuda
+R1_s2026,R1,2026,jpeg_q30,jpeg compression,0.7256497397936241,exact,cuda
+R1_s2026,R1,2026,shadow_left,shadow,0.9382580750435332,exact,cuda
+R1_s2026,R1,2026,shadow_right,shadow,0.9402627625852444,exact,cuda
+R1_s2026,R1,2026,wb_warm,white balance,0.9202378974805124,exact,cuda
+R1_s2026,R1,2026,wb_cool,white balance,0.9236573726631498,exact,cuda
+R2_s2026,R2,2026,unperturbed,unperturbed,0.9466009779899112,exact,cuda
+R2_s2026,R2,2026,brightness_up,brightness/contrast,0.9402162820775872,exact,cuda
+R2_s2026,R2,2026,brightness_down,brightness/contrast,0.8968057282761885,exact,cuda
+R2_s2026,R2,2026,contrast_low,brightness/contrast,0.9440552251014216,exact,cuda
+R2_s2026,R2,2026,contrast_high,brightness/contrast,0.9371448978208043,exact,cuda
+R2_s2026,R2,2026,saturation_low,saturation,0.9361168502349102,exact,cuda
+R2_s2026,R2,2026,saturation_high,saturation,0.9443309833961212,exact,cuda
+R2_s2026,R2,2026,hue_pos,hue shift,0.8889512909055116,exact,cuda
+R2_s2026,R2,2026,hue_neg,hue shift,0.8825337431078123,exact,cuda
+R2_s2026,R2,2026,noise_light,gaussian noise,0.8726553982439407,exact,cuda
+R2_s2026,R2,2026,noise_heavy,gaussian noise,0.3885460649444714,exact,cuda
+R2_s2026,R2,2026,blur_light,blur,0.8573745575481138,exact,cuda
+R2_s2026,R2,2026,blur_heavy,blur,0.4558247405373237,exact,cuda
+R2_s2026,R2,2026,jpeg_q60,jpeg compression,0.8308512187342332,exact,cuda
+R2_s2026,R2,2026,jpeg_q30,jpeg compression,0.7558626505776688,exact,cuda
+R2_s2026,R2,2026,shadow_left,shadow,0.9466009779899112,exact,cuda
+R2_s2026,R2,2026,shadow_right,shadow,0.9401400108480608,exact,cuda
+R2_s2026,R2,2026,wb_warm,white balance,0.935018212964118,exact,cuda
+R2_s2026,R2,2026,wb_cool,white balance,0.9198162055272164,exact,cuda
+R3_s2026,R3,2026,unperturbed,unperturbed,0.9435007146407364,exact,cuda
+R3_s2026,R3,2026,brightness_up,brightness/contrast,0.9386043916185774,exact,cuda
+R3_s2026,R3,2026,brightness_down,brightness/contrast,0.8963797835483919,exact,cuda
+R3_s2026,R3,2026,contrast_low,brightness/contrast,0.9372916865871496,exact,cuda
+R3_s2026,R3,2026,contrast_high,brightness/contrast,0.9371378212995236,exact,cuda
+R3_s2026,R3,2026,saturation_low,saturation,0.93317420859173,exact,cuda
+R3_s2026,R3,2026,saturation_high,saturation,0.9442461798041896,exact,cuda
+R3_s2026,R3,2026,hue_pos,hue shift,0.895842285647018,exact,cuda
+R3_s2026,R3,2026,hue_neg,hue shift,0.8744520854169894,exact,cuda
+R3_s2026,R3,2026,noise_light,gaussian noise,0.8709524709147233,exact,cuda
+R3_s2026,R3,2026,noise_heavy,gaussian noise,0.2581488692215474,exact,cuda
+R3_s2026,R3,2026,blur_light,blur,0.8815073389125819,exact,cuda
+R3_s2026,R3,2026,blur_heavy,blur,0.4226603344500657,exact,cuda
+R3_s2026,R3,2026,jpeg_q60,jpeg compression,0.8343331225794042,exact,cuda
+R3_s2026,R3,2026,jpeg_q30,jpeg compression,0.7441942621522007,exact,cuda
+R3_s2026,R3,2026,shadow_left,shadow,0.9407590448868128,exact,cuda
+R3_s2026,R3,2026,shadow_right,shadow,0.9380343823947292,exact,cuda
+R3_s2026,R3,2026,wb_warm,white balance,0.9279014330119392,exact,cuda
+R3_s2026,R3,2026,wb_cool,white balance,0.9181193185380826,exact,cuda
+C1_s2026,C1,2026,unperturbed,unperturbed,0.9502534294950886,tie_flip:1,cuda
+C1_s2026,C1,2026,brightness_up,brightness/contrast,0.9512558621294874,tie_flip:1,cuda
+C1_s2026,C1,2026,brightness_down,brightness/contrast,0.9237051716965178,tie_flip:1,cuda
+C1_s2026,C1,2026,contrast_low,brightness/contrast,0.947349853195666,tie_flip:1,cuda
+C1_s2026,C1,2026,contrast_high,brightness/contrast,0.9469558898152888,tie_flip:1,cuda
+C1_s2026,C1,2026,saturation_low,saturation,0.9596252366094228,tie_flip:1,cuda
+C1_s2026,C1,2026,saturation_high,saturation,0.9522485519269808,tie_flip:1,cuda
+C1_s2026,C1,2026,hue_pos,hue shift,0.929766990689624,tie_flip:1,cuda
+C1_s2026,C1,2026,hue_neg,hue shift,0.9264603064185716,tie_flip:1,cuda
+C1_s2026,C1,2026,noise_light,gaussian noise,0.9266315104406276,tie_flip:1,cuda
+C1_s2026,C1,2026,noise_heavy,gaussian noise,0.816266002519204,tie_flip:1,cuda
+C1_s2026,C1,2026,blur_light,blur,0.9075686818522508,tie_flip:1,cuda
+C1_s2026,C1,2026,blur_heavy,blur,0.7350840748857325,tie_flip:1,cuda
+C1_s2026,C1,2026,jpeg_q60,jpeg compression,0.8914576518551296,tie_flip:1,cuda
+C1_s2026,C1,2026,jpeg_q30,jpeg compression,0.8247638546274633,tie_flip:1,cuda
+C1_s2026,C1,2026,shadow_left,shadow,0.9565292386455256,tie_flip:1,cuda
+C1_s2026,C1,2026,shadow_right,shadow,0.9561150141541048,tie_flip:1,cuda
+C1_s2026,C1,2026,wb_warm,white balance,0.9497069363029071,tie_flip:1,cuda
+C1_s2026,C1,2026,wb_cool,white balance,0.9503266023097504,tie_flip:1,cuda
+TLA_s2026,TLA,2026,unperturbed,unperturbed,0.9433821242220944,exact,cuda
+TLA_s2026,TLA,2026,brightness_up,brightness/contrast,0.9423436582135716,exact,cuda
+TLA_s2026,TLA,2026,brightness_down,brightness/contrast,0.9197142098622962,exact,cuda
+TLA_s2026,TLA,2026,contrast_low,brightness/contrast,0.942679199143314,exact,cuda
+TLA_s2026,TLA,2026,contrast_high,brightness/contrast,0.9393266699791344,exact,cuda
+TLA_s2026,TLA,2026,saturation_low,saturation,0.9438535279244156,exact,cuda
+TLA_s2026,TLA,2026,saturation_high,saturation,0.9398350004799444,exact,cuda
+TLA_s2026,TLA,2026,hue_pos,hue shift,0.926622057773258,exact,cuda
+TLA_s2026,TLA,2026,hue_neg,hue shift,0.898252345447017,exact,cuda
+TLA_s2026,TLA,2026,noise_light,gaussian noise,0.9184960470908256,exact,cuda
+TLA_s2026,TLA,2026,noise_heavy,gaussian noise,0.8023300348435262,exact,cuda
+TLA_s2026,TLA,2026,blur_light,blur,0.8985474841979803,exact,cuda
+TLA_s2026,TLA,2026,blur_heavy,blur,0.7312806313875667,exact,cuda
+TLA_s2026,TLA,2026,jpeg_q60,jpeg compression,0.8945978639947639,exact,cuda
+TLA_s2026,TLA,2026,jpeg_q30,jpeg compression,0.8457079891674972,exact,cuda
+TLA_s2026,TLA,2026,shadow_left,shadow,0.9428163506595072,exact,cuda
+TLA_s2026,TLA,2026,shadow_right,shadow,0.9495690258871526,exact,cuda
+TLA_s2026,TLA,2026,wb_warm,white balance,0.945196524338126,exact,cuda
+TLA_s2026,TLA,2026,wb_cool,white balance,0.9363813604272564,exact,cuda
+C2_s2026,C2,2026,unperturbed,unperturbed,0.9449097502951348,exact,cuda
+C2_s2026,C2,2026,brightness_up,brightness/contrast,0.94880893129206,exact,cuda
+C2_s2026,C2,2026,brightness_down,brightness/contrast,0.9180403290294316,exact,cuda
+C2_s2026,C2,2026,contrast_low,brightness/contrast,0.946412654313646,exact,cuda
+C2_s2026,C2,2026,contrast_high,brightness/contrast,0.935669244134168,exact,cuda
+C2_s2026,C2,2026,saturation_low,saturation,0.9496425071883062,exact,cuda
+C2_s2026,C2,2026,saturation_high,saturation,0.945401305687375,exact,cuda
+C2_s2026,C2,2026,hue_pos,hue shift,0.92145617202325,exact,cuda
+C2_s2026,C2,2026,hue_neg,hue shift,0.9009344338588696,exact,cuda
+C2_s2026,C2,2026,noise_light,gaussian noise,0.9188012353803744,exact,cuda
+C2_s2026,C2,2026,noise_heavy,gaussian noise,0.8011680044748142,exact,cuda
+C2_s2026,C2,2026,blur_light,blur,0.909338433509692,exact,cuda
+C2_s2026,C2,2026,blur_heavy,blur,0.713348316201152,exact,cuda
+C2_s2026,C2,2026,jpeg_q60,jpeg compression,0.8860482628341849,exact,cuda
+C2_s2026,C2,2026,jpeg_q30,jpeg compression,0.8309312699538091,exact,cuda
+C2_s2026,C2,2026,shadow_left,shadow,0.9443978714642656,exact,cuda
+C2_s2026,C2,2026,shadow_right,shadow,0.9465746183732124,exact,cuda
+C2_s2026,C2,2026,wb_warm,white balance,0.9387820979600164,exact,cuda
+C2_s2026,C2,2026,wb_cool,white balance,0.947492862956687,exact,cuda
+C4_s2026,C4,2026,unperturbed,unperturbed,0.9489382190153652,exact,cuda
+C4_s2026,C4,2026,brightness_up,brightness/contrast,0.9470442951496562,exact,cuda
+C4_s2026,C4,2026,brightness_down,brightness/contrast,0.9146970221925264,exact,cuda
+C4_s2026,C4,2026,contrast_low,brightness/contrast,0.9452936290202478,exact,cuda
+C4_s2026,C4,2026,contrast_high,brightness/contrast,0.9446124898044922,exact,cuda
+C4_s2026,C4,2026,saturation_low,saturation,0.9403603130115687,exact,cuda
+C4_s2026,C4,2026,saturation_high,saturation,0.9449132852588208,exact,cuda
+C4_s2026,C4,2026,hue_pos,hue shift,0.9204765199270006,exact,cuda
+C4_s2026,C4,2026,hue_neg,hue shift,0.8848611734714116,exact,cuda
+C4_s2026,C4,2026,noise_light,gaussian noise,0.8973474941001545,exact,cuda
+C4_s2026,C4,2026,noise_heavy,gaussian noise,0.7772443520624949,exact,cuda
+C4_s2026,C4,2026,blur_light,blur,0.8924095408180739,exact,cuda
+C4_s2026,C4,2026,blur_heavy,blur,0.7120598012553445,exact,cuda
+C4_s2026,C4,2026,jpeg_q60,jpeg compression,0.8672207202964247,exact,cuda
+C4_s2026,C4,2026,jpeg_q30,jpeg compression,0.802033729913971,exact,cuda
+C4_s2026,C4,2026,shadow_left,shadow,0.943472703175376,exact,cuda
+C4_s2026,C4,2026,shadow_right,shadow,0.9461255764149584,exact,cuda
+C4_s2026,C4,2026,wb_warm,white balance,0.9392286552660856,exact,cuda
+C4_s2026,C4,2026,wb_cool,white balance,0.9433629212087796,exact,cuda
+R0_s42,R0,42,unperturbed,unperturbed,0.9470599394649716,,
+R0_s42,R0,42,brightness_up,brightness/contrast,0.9417087907552208,,
+R0_s42,R0,42,brightness_down,brightness/contrast,0.897107369284842,,
+R0_s42,R0,42,contrast_low,brightness/contrast,0.9444356603370344,,
+R0_s42,R0,42,contrast_high,brightness/contrast,0.9430190872821764,,
+R0_s42,R0,42,saturation_low,saturation,0.9263433600182394,,
+R0_s42,R0,42,saturation_high,saturation,0.944004679000031,,
+R0_s42,R0,42,hue_pos,hue shift,0.8911405783157853,,
+R0_s42,R0,42,hue_neg,hue shift,0.8912125579190983,,
+R0_s42,R0,42,noise_light,gaussian noise,0.901141732186802,,
+R0_s42,R0,42,noise_heavy,gaussian noise,0.5037479907068919,,
+R0_s42,R0,42,blur_light,blur,0.8715026175700055,,
+R0_s42,R0,42,blur_heavy,blur,0.4673682419896338,,
+R0_s42,R0,42,jpeg_q60,jpeg compression,0.861688687635714,,
+R0_s42,R0,42,jpeg_q30,jpeg compression,0.7842771594075166,,
+R0_s42,R0,42,shadow_left,shadow,0.9415514498041564,,
+R0_s42,R0,42,shadow_right,shadow,0.9407268092756838,,
+R0_s42,R0,42,wb_warm,white balance,0.9353705945494498,,
+R0_s42,R0,42,wb_cool,white balance,0.9188961780072014,,
+R1_s42,R1,42,unperturbed,unperturbed,0.9390281967688576,,
+R1_s42,R1,42,brightness_up,brightness/contrast,0.9336667303494312,,
+R1_s42,R1,42,brightness_down,brightness/contrast,0.9152607520890172,,
+R1_s42,R1,42,contrast_low,brightness/contrast,0.9404195338809356,,
+R1_s42,R1,42,contrast_high,brightness/contrast,0.9331196541016205,,
+R1_s42,R1,42,saturation_low,saturation,0.9329297914986002,,
+R1_s42,R1,42,saturation_high,saturation,0.9346788446629608,,
+R1_s42,R1,42,hue_pos,hue shift,0.8783781387350061,,
+R1_s42,R1,42,hue_neg,hue shift,0.8790810721019275,,
+R1_s42,R1,42,noise_light,gaussian noise,0.8710679954412123,,
+R1_s42,R1,42,noise_heavy,gaussian noise,0.3264392068232747,,
+R1_s42,R1,42,blur_light,blur,0.8584270588069673,,
+R1_s42,R1,42,blur_heavy,blur,0.3489571475182985,,
+R1_s42,R1,42,jpeg_q60,jpeg compression,0.8327762860301305,,
+R1_s42,R1,42,jpeg_q30,jpeg compression,0.7518966521357514,,
+R1_s42,R1,42,shadow_left,shadow,0.940752035245109,,
+R1_s42,R1,42,shadow_right,shadow,0.9341582837012964,,
+R1_s42,R1,42,wb_warm,white balance,0.9220846153404092,,
+R1_s42,R1,42,wb_cool,white balance,0.9003403793279097,,
+R2_s42,R2,42,unperturbed,unperturbed,0.9406441883760628,,
+R2_s42,R2,42,brightness_up,brightness/contrast,0.9380441225835296,,
+R2_s42,R2,42,brightness_down,brightness/contrast,0.903272148761748,,
+R2_s42,R2,42,contrast_low,brightness/contrast,0.9415795656916544,,
+R2_s42,R2,42,contrast_high,brightness/contrast,0.9410696149001562,,
+R2_s42,R2,42,saturation_low,saturation,0.9339669564195174,,
+R2_s42,R2,42,saturation_high,saturation,0.9353818144780828,,
+R2_s42,R2,42,hue_pos,hue shift,0.8911948393260883,,
+R2_s42,R2,42,hue_neg,hue shift,0.8888770483173267,,
+R2_s42,R2,42,noise_light,gaussian noise,0.8729312513520444,,
+R2_s42,R2,42,noise_heavy,gaussian noise,0.3470594759672316,,
+R2_s42,R2,42,blur_light,blur,0.8889922578849785,,
+R2_s42,R2,42,blur_heavy,blur,0.4202051178900418,,
+R2_s42,R2,42,jpeg_q60,jpeg compression,0.8438359656055192,,
+R2_s42,R2,42,jpeg_q30,jpeg compression,0.7742450095852068,,
+R2_s42,R2,42,shadow_left,shadow,0.9407585542102485,,
+R2_s42,R2,42,shadow_right,shadow,0.9445996296381594,,
+R2_s42,R2,42,wb_warm,white balance,0.932977017710172,,
+R2_s42,R2,42,wb_cool,white balance,0.9217479626043776,,
+R3_s42,R3,42,unperturbed,unperturbed,0.9348014946839938,,
+R3_s42,R3,42,brightness_up,brightness/contrast,0.935783621129373,,
+R3_s42,R3,42,brightness_down,brightness/contrast,0.9007674338225842,,
+R3_s42,R3,42,contrast_low,brightness/contrast,0.933827208388454,,
+R3_s42,R3,42,contrast_high,brightness/contrast,0.9300990689075618,,
+R3_s42,R3,42,saturation_low,saturation,0.9323467205659312,,
+R3_s42,R3,42,saturation_high,saturation,0.9383172635161384,,
+R3_s42,R3,42,hue_pos,hue shift,0.8969341403842751,,
+R3_s42,R3,42,hue_neg,hue shift,0.8916278649899699,,
+R3_s42,R3,42,noise_light,gaussian noise,0.8802003984666565,,
+R3_s42,R3,42,noise_heavy,gaussian noise,0.2890800775159115,,
+R3_s42,R3,42,blur_light,blur,0.8736990487313235,,
+R3_s42,R3,42,blur_heavy,blur,0.4798181098311483,,
+R3_s42,R3,42,jpeg_q60,jpeg compression,0.8193050395066541,,
+R3_s42,R3,42,jpeg_q30,jpeg compression,0.745332904674991,,
+R3_s42,R3,42,shadow_left,shadow,0.9327251948844156,,
+R3_s42,R3,42,shadow_right,shadow,0.9320325953394494,,
+R3_s42,R3,42,wb_warm,white balance,0.94057516448001,,
+R3_s42,R3,42,wb_cool,white balance,0.9288205214243914,,
+C1_s42,C1,42,unperturbed,unperturbed,0.9566273979393493,,
+C1_s42,C1,42,brightness_up,brightness/contrast,0.954652438026664,,
+C1_s42,C1,42,brightness_down,brightness/contrast,0.925264573582358,,
+C1_s42,C1,42,contrast_low,brightness/contrast,0.9570693652792917,,
+C1_s42,C1,42,contrast_high,brightness/contrast,0.9494549419099032,,
+C1_s42,C1,42,saturation_low,saturation,0.9558711409233046,,
+C1_s42,C1,42,saturation_high,saturation,0.9577066772968148,,
+C1_s42,C1,42,hue_pos,hue shift,0.9222592033302568,,
+C1_s42,C1,42,hue_neg,hue shift,0.9179536579797496,,
+C1_s42,C1,42,noise_light,gaussian noise,0.9168397036109336,,
+C1_s42,C1,42,noise_heavy,gaussian noise,0.7809561112894833,,
+C1_s42,C1,42,blur_light,blur,0.8943356191327039,,
+C1_s42,C1,42,blur_heavy,blur,0.7340031594877109,,
+C1_s42,C1,42,jpeg_q60,jpeg compression,0.8937936042814039,,
+C1_s42,C1,42,jpeg_q30,jpeg compression,0.8367966403853577,,
+C1_s42,C1,42,shadow_left,shadow,0.9606151149497716,,
+C1_s42,C1,42,shadow_right,shadow,0.9568888059929742,,
+C1_s42,C1,42,wb_warm,white balance,0.953822286256818,,
+C1_s42,C1,42,wb_cool,white balance,0.9549907235176004,,
+TLA_s42,TLA,42,unperturbed,unperturbed,0.957436456670802,,
+TLA_s42,TLA,42,brightness_up,brightness/contrast,0.9491270246395948,,
+TLA_s42,TLA,42,brightness_down,brightness/contrast,0.9150182581437714,,
+TLA_s42,TLA,42,contrast_low,brightness/contrast,0.96150763412426,,
+TLA_s42,TLA,42,contrast_high,brightness/contrast,0.9411183422351488,,
+TLA_s42,TLA,42,saturation_low,saturation,0.948944659460517,,
+TLA_s42,TLA,42,saturation_high,saturation,0.9530057151471162,,
+TLA_s42,TLA,42,hue_pos,hue shift,0.9259031006374896,,
+TLA_s42,TLA,42,hue_neg,hue shift,0.9095220881958568,,
+TLA_s42,TLA,42,noise_light,gaussian noise,0.9221966076958956,,
+TLA_s42,TLA,42,noise_heavy,gaussian noise,0.8025799229717657,,
+TLA_s42,TLA,42,blur_light,blur,0.8899950420017364,,
+TLA_s42,TLA,42,blur_heavy,blur,0.7131338547854996,,
+TLA_s42,TLA,42,jpeg_q60,jpeg compression,0.8727412222208748,,
+TLA_s42,TLA,42,jpeg_q30,jpeg compression,0.8276423122666482,,
+TLA_s42,TLA,42,shadow_left,shadow,0.951172414808922,,
+TLA_s42,TLA,42,shadow_right,shadow,0.956237372507166,,
+TLA_s42,TLA,42,wb_warm,white balance,0.9521699135545176,,
+TLA_s42,TLA,42,wb_cool,white balance,0.948492687556319,,
+C2_s42,C2,42,unperturbed,unperturbed,0.9586878638613724,,
+C2_s42,C2,42,brightness_up,brightness/contrast,0.955861668726319,,
+C2_s42,C2,42,brightness_down,brightness/contrast,0.9172353197093857,,
+C2_s42,C2,42,contrast_low,brightness/contrast,0.9558634703937317,,
+C2_s42,C2,42,contrast_high,brightness/contrast,0.9458118158616358,,
+C2_s42,C2,42,saturation_low,saturation,0.9636450722344488,,
+C2_s42,C2,42,saturation_high,saturation,0.9586001936583765,,
+C2_s42,C2,42,hue_pos,hue shift,0.9309826876819272,,
+C2_s42,C2,42,hue_neg,hue shift,0.9130207349910008,,
+C2_s42,C2,42,noise_light,gaussian noise,0.928555531222995,,
+C2_s42,C2,42,noise_heavy,gaussian noise,0.7819071417013729,,
+C2_s42,C2,42,blur_light,blur,0.9165011244931544,,
+C2_s42,C2,42,blur_heavy,blur,0.7522578691065521,,
+C2_s42,C2,42,jpeg_q60,jpeg compression,0.8848856614437901,,
+C2_s42,C2,42,jpeg_q30,jpeg compression,0.822110264311125,,
+C2_s42,C2,42,shadow_left,shadow,0.9584916751737774,,
+C2_s42,C2,42,shadow_right,shadow,0.9556397560384534,,
+C2_s42,C2,42,wb_warm,white balance,0.9524091628131308,,
+C2_s42,C2,42,wb_cool,white balance,0.9602155032489114,,
+C4_s42,C4,42,unperturbed,unperturbed,0.94789716980675,,
+C4_s42,C4,42,brightness_up,brightness/contrast,0.9499147811310208,,
+C4_s42,C4,42,brightness_down,brightness/contrast,0.9186961626697524,,
+C4_s42,C4,42,contrast_low,brightness/contrast,0.9476474807192176,,
+C4_s42,C4,42,contrast_high,brightness/contrast,0.9497352709393296,,
+C4_s42,C4,42,saturation_low,saturation,0.947353775434624,,
+C4_s42,C4,42,saturation_high,saturation,0.9568736288242548,,
+C4_s42,C4,42,hue_pos,hue shift,0.9274902042251651,,
+C4_s42,C4,42,hue_neg,hue shift,0.9075865170705324,,
+C4_s42,C4,42,noise_light,gaussian noise,0.9190491088709162,,
+C4_s42,C4,42,noise_heavy,gaussian noise,0.7889903607246396,,
+C4_s42,C4,42,blur_light,blur,0.9035129950752724,,
+C4_s42,C4,42,blur_heavy,blur,0.7690274923839802,,
+C4_s42,C4,42,jpeg_q60,jpeg compression,0.8839457388145727,,
+C4_s42,C4,42,jpeg_q30,jpeg compression,0.8321450999985399,,
+C4_s42,C4,42,shadow_left,shadow,0.9488769879753068,,
+C4_s42,C4,42,shadow_right,shadow,0.9490424879675808,,
+C4_s42,C4,42,wb_warm,white balance,0.9554989416952988,,
+C4_s42,C4,42,wb_cool,white balance,0.9513033752239248,,

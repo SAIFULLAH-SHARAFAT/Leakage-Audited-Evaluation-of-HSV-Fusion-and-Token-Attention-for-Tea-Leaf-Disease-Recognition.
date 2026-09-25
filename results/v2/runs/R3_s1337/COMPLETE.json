@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "campaign_id": "tea_leaf_v2",
+  "experiment_name": "R3_s1337",
+  "seed": 1337,
+  "n_test": 808
+}

@@ -1,0 +1,132 @@
+defaults:
+  campaign_id: tea_leaf_v2
+
+  data_root: data/Tea_leaf_dataset
+  manifest_csv: data/manifests/final_split_manifest.csv
+  manifest_fingerprint: data/manifests/final_fingerprint.json
+  expected_manifest_sha256: d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d
+  
+  results_dir: results/v2/runs
+  ckpt_dir: results/v2/ckpt
+  tables_dir: results/v2/tables
+  figures_dir: results/v2/figures
+
+  seeds: [42, 1337, 2026]
+  robustness_seeds: [42, 1337, 2026]
+  robustness_experiments: [R0, R1, R2, R3, C1, TLA, C2, C4]
+recipes:
+  swin:
+    script: src/train_swin_three_models.py
+    args:
+      model_name: swin_small_patch4_window7_224.ms_in1k
+      pretrained: true
+      use_ema: true
+      compute_val_auc: true
+      epochs: 100
+      batch_size: 64
+      gradient_accumulation_steps: 1
+      lr: 0.0005
+      drop_path_rate: 0.2
+      gate_warmup_epochs: 5
+      hue_jitter: 0.0
+      num_workers: 0
+      no_dp: true
+      strict_final_counts: true
+      log_init_scale_diagnostics: true
+  token:
+    script: src/train_token_models.py
+    args:
+      pretrained: true
+      use_ema: true
+      compute_val_auc: true
+      epochs: 100
+      batch_size: 32
+      gradient_accumulation_steps: 2
+      lr: 0.0001
+      drop_path_rate: 0.2
+      gate_warmup_epochs: 10
+      hue_jitter: 0.0
+      num_workers: 0
+      no_dp: true
+      strict_final_counts: true
+experiments:
+  R0:
+    recipe: swin
+    label: RGB Swin-S + matched MLP head + EMA
+    family: hsv
+    role: baseline
+    args: {}
+  R1:
+    recipe: swin
+    label: HSV sin-cos, vector gate + matched MLP head + EMA
+    family: hsv
+    args:
+      use_hsv: true
+      gate_vector: true
+  R2:
+    recipe: swin
+    label: HSV-raw, scalar gate + matched MLP head + EMA
+    family: hsv
+    args:
+      use_hsv: true
+      hsv_raw: true
+  R3:
+    recipe: swin
+    label: HSV sin-cos, scalar gate + matched MLP head + EMA
+    family: hsv
+    args:
+      use_hsv: true
+  C1:
+    recipe: token
+    label: Recipe-matched Swin-S control, no token module
+    family: token
+    role: baseline
+    args:
+      arch: rgb
+    expect_token_params: 0
+  TLA:
+    recipe: token
+    label: Stage-4 RGB token-level attention + EMA
+    family: token
+    args:
+      arch: tcca
+    expect_token_params: 3545089
+  C2:
+    recipe: token
+    label: Stage-4 parameter-matched non-attention MLP + EMA
+    family: token
+    args:
+      arch: adapter
+      adapter_expansion: 3
+    expect_token_params: 3545089
+  C4:
+    recipe: token
+    label: Stage-4 lightweight ECA comparator + EMA
+    family: token
+    args:
+      arch: eca
+paired_comparisons:
+- a: R1
+  b: R0
+  purpose: HSV sin-cos vector vs matched RGB baseline
+- a: R2
+  b: R0
+  purpose: HSV-raw scalar vs matched RGB baseline
+- a: R3
+  b: R0
+  purpose: HSV sin-cos scalar vs matched RGB baseline
+- a: TLA
+  b: C1
+  purpose: token attention vs recipe/head-matched no-token control
+- a: C2
+  b: C1
+  purpose: parameter-matched MLP vs no-token control
+- a: C4
+  b: C1
+  purpose: lightweight ECA vs no-token control
+- a: TLA
+  b: C2
+  purpose: attention mechanism vs parameter-matched non-attention capacity
+- a: TLA
+  b: C4
+  purpose: TLA vs lightweight attention comparator

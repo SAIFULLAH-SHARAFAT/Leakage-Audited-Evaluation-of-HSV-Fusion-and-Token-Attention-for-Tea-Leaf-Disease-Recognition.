@@ -1,0 +1,42 @@
+{
+  "campaign_id": "tea_leaf_v2",
+  "seed": 2026,
+  "arms": [
+    "C1",
+    "C2",
+    "C4",
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "TLA"
+  ],
+  "min_arms_wrong": 8,
+  "n_test": 808,
+  "n_selected": 12,
+  "n_unanimous_same_wrong_label": 10,
+  "wrong_in_at_least_one_arm": 86,
+  "oracle_accuracy_ceiling": 0.985149,
+  "best_arm_accuracy": 0.956683,
+  "by_true_class": {
+    "Gray Blight": 2,
+    "Green mirid bug": 4,
+    "Red spider": 1,
+    "Brown Blight": 3,
+    "Tea algal leaf spot": 1,
+    "Helopeltis": 1
+  },
+  "by_confusion": {
+    "Gray Blight -> Red spider": 1,
+    "Green mirid bug -> Helopeltis": 1,
+    "Red spider -> Gray Blight": 1,
+    "Brown Blight -> Tea algal leaf spot": 3,
+    "Tea algal leaf spot -> Brown Blight": 1,
+    "Gray Blight -> Green mirid bug": 1,
+    "Green mirid bug -> Gray Blight": 2,
+    "Helopeltis -> Gray Blight": 1,
+    "Green mirid bug -> Tea algal leaf spot": 1
+  },
+  "selected_images_that_are_near_duplicates_of_each_other": [],
+  "note": "Post-hoc exploratory analysis; not a predeclared comparison."
+}

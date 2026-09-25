@@ -1,0 +1,250 @@
+class_name,i,j,file_i,file_j,split_i,split_j,hamming,cosine
+Brown Blight,122,4848,brown_blight_00063.jpg,brown_blight_00064.jpg,train,test,6,0.9615893363952637
+Brown Blight,125,126,brown_blight_00067.jpg,brown_blight_00068.jpg,train,train,2,0.9674025774002075
+Brown Blight,132,3998,brown_blight_00076.jpg,brown_blight_00075.jpg,train,val,6,0.9524574875831604
+Brown Blight,133,3999,brown_blight_00077.jpg,brown_blight_00079.jpg,train,val,4,0.9418776631355286
+Brown Blight,133,4850,brown_blight_00077.jpg,brown_blight_00078.jpg,train,test,4,0.9458665251731873
+Brown Blight,140,4851,brown_blight_00089.jpg,brown_blight_00088.jpg,train,test,8,0.9530971050262451
+Brown Blight,141,142,brown_blight_00091.jpg,brown_blight_00092.jpg,train,train,2,0.9714353084564209
+Brown Blight,144,145,brown_blight_00094.jpg,brown_blight_00095.jpg,train,train,0,0.9932017922401428
+Brown Blight,146,4002,brown_blight_00099.jpg,brown_blight_00098.jpg,train,val,0,0.9761173129081726
+Brown Blight,150,4855,brown_blight_00103.jpg,brown_blight_00104.jpg,train,test,4,0.9748115539550781
+Brown Blight,153,4857,brown_blight_00109.jpg,brown_blight_00108.jpg,train,test,2,0.9887829422950745
+Brown Blight,157,158,brown_blight_00117.jpg,brown_blight_00118.jpg,train,train,4,0.9453010559082031
+Brown Blight,157,4860,brown_blight_00117.jpg,brown_blight_00119.jpg,train,test,4,0.9513604640960693
+Brown Blight,158,4860,brown_blight_00118.jpg,brown_blight_00119.jpg,train,test,2,0.9791829586029053
+Brown Blight,160,161,brown_blight_00121.jpg,brown_blight_00122.jpg,train,train,2,0.9727141857147217
+Brown Blight,192,194,brown_blight_00168.jpg,brown_blight_00170.jpg,train,train,2,0.9662172794342041
+Brown Blight,200,201,brown_blight_00180.jpg,brown_blight_00181.jpg,train,train,8,0.9340451955795288
+Brown Blight,211,4019,brown_blight_00197.jpg,brown_blight_00196.jpg,train,val,2,0.948191225528717
+Brown Blight,214,215,brown_blight_00201.jpg,brown_blight_00202.jpg,train,train,0,0.9584125280380249
+Brown Blight,220,4874,brown_blight_00213.jpg,brown_blight_00212.jpg,train,test,6,0.9633313417434692
+Brown Blight,231,232,brown_blight_00228.jpg,brown_blight_00229.jpg,train,train,8,0.9372087121009827
+Brown Blight,263,264,brown_blight_00270.jpg,brown_blight_00271.jpg,train,train,4,0.9790598750114441
+Brown Blight,275,276,brown_blight_00284.jpg,brown_blight_00285.jpg,train,train,4,0.9591243267059326
+Brown Blight,279,280,brown_blight_00288.jpg,brown_blight_00289.jpg,train,train,2,0.9592673182487488
+Brown Blight,298,4032,brown_blight_00309.jpg,brown_blight_00310.jpg,train,val,8,0.9210579991340637
+Brown Blight,413,4058,brown_blight_00477.jpg,brown_blight_00478.jpg,train,val,8,0.924412190914154
+Brown Blight,3999,4850,brown_blight_00079.jpg,brown_blight_00078.jpg,val,test,0,0.9713265895843506
+Brown Blight,4007,4862,brown_blight_00137.jpg,brown_blight_00136.jpg,val,test,8,0.9448123574256897
+Brown Blight,4026,4878,brown_blight_00254.jpg,brown_blight_00253.jpg,val,test,4,0.9660084247589111
+Brown Blight,4034,4888,brown_blight_00334.jpg,brown_blight_00337.jpg,val,test,8,0.946864664554596
+Brown Blight,4056,4910,brown_blight_00473.jpg,brown_blight_00472.jpg,val,test,2,0.9781255722045898
+Brown Blight,4851,4852,brown_blight_00088.jpg,brown_blight_00090.jpg,test,test,6,0.942436933517456
+Brown Blight,4853,4854,brown_blight_00096.jpg,brown_blight_00097.jpg,test,test,2,0.9797011613845825
+Gray Blight,497,498,IMG_20220503_142658 - Copy.jpg,IMG_20220503_142658.jpg,train,train,0,1.0
+Gray Blight,677,4114,gray_blight_00246.jpg,gray_blight_00247.jpg,train,val,2,0.9742761850357056
+Gray Blight,679,681,gray_blight_00250.jpg,gray_blight_00252.jpg,train,train,8,0.9414462447166443
+Gray Blight,683,685,gray_blight_00255.jpg,gray_blight_00257.jpg,train,train,8,0.980111837387085
+Gray Blight,693,4118,gray_blight_00270.jpg,gray_blight_00269.jpg,train,val,6,0.9593558311462402
+Gray Blight,693,4967,gray_blight_00270.jpg,gray_blight_00268.jpg,train,test,8,0.958427906036377
+Gray Blight,695,696,gray_blight_00272.jpg,gray_blight_00273.jpg,train,train,6,0.959030032157898
+Gray Blight,699,700,gray_blight_00276.jpg,gray_blight_00277.jpg,train,train,4,0.9280290007591248
+Gray Blight,701,4968,gray_blight_00278.jpg,gray_blight_00279.jpg,train,test,6,0.9329671263694763
+Gray Blight,709,710,gray_blight_00291.jpg,gray_blight_00292.jpg,train,train,8,0.9384432435035706
+Gray Blight,711,712,gray_blight_00293.jpg,gray_blight_00294.jpg,train,train,2,0.9750940203666687
+Gray Blight,713,4972,gray_blight_00296.jpg,gray_blight_00295.jpg,train,test,2,0.9713270664215088
+Gray Blight,714,715,gray_blight_00297.jpg,gray_blight_00298.jpg,train,train,4,0.9796820878982544
+Gray Blight,718,719,gray_blight_00304.jpg,gray_blight_00305.jpg,train,train,4,0.9373444318771362
+Gray Blight,723,724,gray_blight_00311.jpg,gray_blight_00313.jpg,train,train,4,0.9751445055007935
+Gray Blight,725,4975,gray_blight_00315.jpg,gray_blight_00314.jpg,train,test,6,0.9345847964286804
+Gray Blight,754,4983,gray_blight_00361.jpg,gray_blight_00360.jpg,train,test,2,0.9838215708732605
+Gray Blight,755,4134,gray_blight_00364.jpg,gray_blight_00363.jpg,train,val,2,0.9818205833435059
+Gray Blight,763,764,gray_blight_00373.jpg,gray_blight_00374.jpg,train,train,4,0.9623885154724121
+Gray Blight,790,4991,gray_blight_00413.jpg,gray_blight_00414.jpg,train,test,2,0.9484045505523682
+Gray Blight,805,4145,gray_blight_00435.jpg,gray_blight_00434.jpg,train,val,4,0.9230886697769165
+Gray Blight,848,849,gray_blight_00493.jpg,gray_blight_00494.jpg,train,train,0,0.9999999403953552
+Gray Blight,1175,1176,gray_blight_00957.jpg,gray_blight_00958.jpg,train,train,6,0.934242844581604
+Gray Blight,1179,5076,gray_blight_00966.jpg,gray_blight_00965.jpg,train,test,6,0.9470213055610657
+Gray Blight,1181,1182,gray_blight_00969.jpg,gray_blight_00970.jpg,train,train,8,0.9239689111709595
+Gray Blight,1182,1183,gray_blight_00970.jpg,gray_blight_00971.jpg,train,train,8,0.963267982006073
+Gray Blight,1189,1190,gray_blight_00978.jpg,gray_blight_00979.jpg,train,train,4,0.9643382430076599
+Gray Blight,4110,4111,gray_blight_00214.jpg,gray_blight_00215.jpg,val,val,6,0.9425897002220154
+Gray Blight,4118,4967,gray_blight_00269.jpg,gray_blight_00268.jpg,val,test,6,0.9448354840278625
+Gray Blight,4124,4125,gray_blight_00318.jpg,gray_blight_00319.jpg,val,val,6,0.9595057964324951
+Green mirid bug,1295,1297,green_mirid_bug_00117.jpg,green_mirid_bug_00119.jpg,train,train,4,0.9383448362350464
+Green mirid bug,1322,5108,green_mirid_bug_00157.jpg,green_mirid_bug_00155.jpg,train,test,4,0.9337910413742065
+Green mirid bug,1329,5110,green_mirid_bug_00166.jpg,green_mirid_bug_00164.jpg,train,test,8,0.9260330200195312
+Green mirid bug,1334,1336,green_mirid_bug_00172.jpg,green_mirid_bug_00174.jpg,train,train,4,0.9250189661979675
+Green mirid bug,1342,1344,green_mirid_bug_00180.jpg,green_mirid_bug_00182.jpg,train,train,8,0.949795663356781
+Green mirid bug,1419,1425,green_mirid_bug_00287.jpg,green_mirid_bug_00298.jpg,train,train,2,0.9362910389900208
+Green mirid bug,1484,5148,green_mirid_bug_00388.jpg,green_mirid_bug_00389.jpg,train,test,2,0.979841947555542
+Green mirid bug,1507,4280,green_mirid_bug_00430.jpg,green_mirid_bug_00402.jpg,train,val,8,0.9246340990066528
+Green mirid bug,1526,1527,green_mirid_bug_00461.jpg,green_mirid_bug_00462.jpg,train,train,8,0.9382262825965881
+Green mirid bug,1535,1536,green_mirid_bug_00472.jpg,green_mirid_bug_00473.jpg,train,train,6,0.9630463719367981
+Green mirid bug,1537,1538,green_mirid_bug_00474.jpg,green_mirid_bug_00475.jpg,train,train,8,0.9481157660484314
+Green mirid bug,1546,1547,green_mirid_bug_00487.jpg,green_mirid_bug_00488.jpg,train,train,2,0.9687856435775757
+Green mirid bug,1546,4300,green_mirid_bug_00487.jpg,green_mirid_bug_00486.jpg,train,val,2,0.9676413536071777
+Green mirid bug,1547,4300,green_mirid_bug_00488.jpg,green_mirid_bug_00486.jpg,train,val,2,0.9493696093559265
+Green mirid bug,1555,4304,green_mirid_bug_00499.jpg,green_mirid_bug_00500.jpg,train,val,4,0.950116753578186
+Green mirid bug,1556,5163,green_mirid_bug_00502.jpg,green_mirid_bug_00501.jpg,train,test,6,0.9470808506011963
+Green mirid bug,1558,5164,green_mirid_bug_00504.jpg,green_mirid_bug_00505.jpg,train,test,8,0.9525700211524963
+Green mirid bug,1566,1567,green_mirid_bug_00515.jpg,green_mirid_bug_00516.jpg,train,train,4,0.9748918414115906
+Green mirid bug,1571,1572,green_mirid_bug_00521.jpg,green_mirid_bug_00522.jpg,train,train,2,0.9485580921173096
+Green mirid bug,1578,1579,green_mirid_bug_00533.jpg,green_mirid_bug_00534.jpg,train,train,8,0.9436203241348267
+Green mirid bug,1588,1589,green_mirid_bug_00544.jpg,green_mirid_bug_00546.jpg,train,train,4,0.9712818264961243
+Green mirid bug,1590,1591,green_mirid_bug_00547.jpg,green_mirid_bug_00548.jpg,train,train,4,0.9664338827133179
+Green mirid bug,1602,1603,green_mirid_bug_00563.jpg,green_mirid_bug_00564.jpg,train,train,4,0.9665789604187012
+Green mirid bug,1616,5173,green_mirid_bug_00581.jpg,green_mirid_bug_00580.jpg,train,test,4,0.9668316841125488
+Green mirid bug,1632,4316,green_mirid_bug_00603.jpg,green_mirid_bug_00602.jpg,train,val,4,0.9657833576202393
+Green mirid bug,1635,1636,green_mirid_bug_00606.jpg,green_mirid_bug_00608.jpg,train,train,8,0.9429282546043396
+Green mirid bug,1651,1652,green_mirid_bug_00631.jpg,green_mirid_bug_00632.jpg,train,train,8,0.92887943983078
+Green mirid bug,1664,1665,green_mirid_bug_00647.jpg,green_mirid_bug_00648.jpg,train,train,6,0.9611592888832092
+Green mirid bug,1666,1667,green_mirid_bug_00649.jpg,green_mirid_bug_00651.jpg,train,train,4,0.970529317855835
+Green mirid bug,1666,4325,green_mirid_bug_00649.jpg,green_mirid_bug_00650.jpg,train,val,4,0.9678828716278076
+Green mirid bug,1667,4325,green_mirid_bug_00651.jpg,green_mirid_bug_00650.jpg,train,val,2,0.9816431403160095
+Green mirid bug,1695,5185,green_mirid_bug_00690.jpg,green_mirid_bug_00689.jpg,train,test,0,0.9748206734657288
+Green mirid bug,1734,5194,green_mirid_bug_00746.jpg,green_mirid_bug_00747.jpg,train,test,8,0.9283875226974487
+Green mirid bug,1767,5200,green_mirid_bug_00790.jpg,green_mirid_bug_00791.jpg,train,test,4,0.967292308807373
+Green mirid bug,1778,1779,green_mirid_bug_00816.jpg,green_mirid_bug_00817.jpg,train,train,6,0.9509701728820801
+Green mirid bug,1807,5212,green_mirid_bug_00856.jpg,green_mirid_bug_00855.jpg,train,test,6,0.9389872550964355
+Green mirid bug,1808,1809,green_mirid_bug_00857.jpg,green_mirid_bug_00858.jpg,train,train,4,0.9459277987480164
+Green mirid bug,1816,4359,green_mirid_bug_00866.jpg,green_mirid_bug_00865.jpg,train,val,8,0.9560462236404419
+Green mirid bug,1834,5218,green_mirid_bug_00894.jpg,green_mirid_bug_00895.jpg,train,test,2,0.921583354473114
+Green mirid bug,1839,5219,green_mirid_bug_00901.jpg,green_mirid_bug_00900.jpg,train,test,8,0.9693250060081482
+Green mirid bug,1840,1841,green_mirid_bug_00902.jpg,green_mirid_bug_00903.jpg,train,train,6,0.9358376860618591
+Green mirid bug,1845,1846,green_mirid_bug_00911.jpg,green_mirid_bug_00912.jpg,train,train,6,0.9474284648895264
+Green mirid bug,1849,1850,green_mirid_bug_00917.jpg,green_mirid_bug_00918.jpg,train,train,8,0.9679581522941589
+Green mirid bug,1870,1871,green_mirid_bug_00942.jpg,green_mirid_bug_00943.jpg,train,train,8,0.9486662745475769
+Green mirid bug,1913,1914,green_mirid_bug_01006.jpg,green_mirid_bug_01007.jpg,train,train,6,0.9323899745941162
+Green mirid bug,1917,5236,green_mirid_bug_01011.jpg,green_mirid_bug_01010.jpg,train,test,6,0.9254743456840515
+Green mirid bug,1943,5243,green_mirid_bug_01049.jpg,green_mirid_bug_01048.jpg,train,test,4,0.953843355178833
+Green mirid bug,1957,1958,green_mirid_bug_01072.jpg,green_mirid_bug_01073.jpg,train,train,2,0.9755586981773376
+Green mirid bug,4294,5157,green_mirid_bug_00441.jpg,green_mirid_bug_00447.jpg,val,test,8,0.924708366394043
+Green mirid bug,4312,4313,green_mirid_bug_00566.jpg,green_mirid_bug_00567.jpg,val,val,2,0.9526280164718628
+Green mirid bug,4349,4351,green_mirid_bug_00801.jpg,green_mirid_bug_00803.jpg,val,val,4,0.9621248841285706
+Green mirid bug,4363,4364,green_mirid_bug_00892.jpg,green_mirid_bug_00893.jpg,val,val,6,0.9505345225334167
+Green mirid bug,5201,5202,green_mirid_bug_00794.jpg,green_mirid_bug_00795.jpg,test,test,8,0.944593071937561
+Green mirid bug,5215,5216,green_mirid_bug_00883.jpg,green_mirid_bug_00884.jpg,test,test,8,0.9571199417114258
+Healthy leaf,2116,2117,UNADJUSTEDNONRAW_thumb_211.jpg,UNADJUSTEDNONRAW_thumb_212.jpg,train,train,8,0.9793598651885986
+Healthy leaf,2116,2118,UNADJUSTEDNONRAW_thumb_211.jpg,UNADJUSTEDNONRAW_thumb_213.jpg,train,train,8,0.9452641010284424
+Healthy leaf,2144,2146,UNADJUSTEDNONRAW_thumb_232.jpg,UNADJUSTEDNONRAW_thumb_235.jpg,train,train,8,0.9743934869766235
+Healthy leaf,2144,2148,UNADJUSTEDNONRAW_thumb_232.jpg,UNADJUSTEDNONRAW_thumb_237.jpg,train,train,8,0.9778772592544556
+Healthy leaf,2144,5281,UNADJUSTEDNONRAW_thumb_232.jpg,UNADJUSTEDNONRAW_thumb_233.jpg,train,test,8,0.9665061235427856
+Healthy leaf,2145,2146,UNADJUSTEDNONRAW_thumb_234.jpg,UNADJUSTEDNONRAW_thumb_235.jpg,train,train,6,0.9874526858329773
+Healthy leaf,2145,2147,UNADJUSTEDNONRAW_thumb_234.jpg,UNADJUSTEDNONRAW_thumb_236.jpg,train,train,4,0.9887979626655579
+Healthy leaf,2145,2148,UNADJUSTEDNONRAW_thumb_234.jpg,UNADJUSTEDNONRAW_thumb_237.jpg,train,train,4,0.9883477091789246
+Healthy leaf,2145,2149,UNADJUSTEDNONRAW_thumb_234.jpg,UNADJUSTEDNONRAW_thumb_239.jpg,train,train,4,0.9747879505157471
+Healthy leaf,2145,2150,UNADJUSTEDNONRAW_thumb_234.jpg,UNADJUSTEDNONRAW_thumb_23a.jpg,train,train,4,0.9703457355499268
+Healthy leaf,2145,2151,UNADJUSTEDNONRAW_thumb_234.jpg,UNADJUSTEDNONRAW_thumb_23b.jpg,train,train,4,0.971250057220459
+Healthy leaf,2145,5282,UNADJUSTEDNONRAW_thumb_234.jpg,UNADJUSTEDNONRAW_thumb_238.jpg,train,test,4,0.9729809761047363
+Healthy leaf,2146,2147,UNADJUSTEDNONRAW_thumb_235.jpg,UNADJUSTEDNONRAW_thumb_236.jpg,train,train,2,0.9826762676239014
+Healthy leaf,2146,2148,UNADJUSTEDNONRAW_thumb_235.jpg,UNADJUSTEDNONRAW_thumb_237.jpg,train,train,2,0.9937821626663208
+Healthy leaf,2146,2149,UNADJUSTEDNONRAW_thumb_235.jpg,UNADJUSTEDNONRAW_thumb_239.jpg,train,train,2,0.9645287990570068
+Healthy leaf,2146,2150,UNADJUSTEDNONRAW_thumb_235.jpg,UNADJUSTEDNONRAW_thumb_23a.jpg,train,train,4,0.9582102298736572
+Healthy leaf,2146,2151,UNADJUSTEDNONRAW_thumb_235.jpg,UNADJUSTEDNONRAW_thumb_23b.jpg,train,train,4,0.960237979888916
+Healthy leaf,2146,5281,UNADJUSTEDNONRAW_thumb_235.jpg,UNADJUSTEDNONRAW_thumb_233.jpg,train,test,4,0.9823099970817566
+Healthy leaf,2146,5282,UNADJUSTEDNONRAW_thumb_235.jpg,UNADJUSTEDNONRAW_thumb_238.jpg,train,test,4,0.9672228097915649
+Healthy leaf,2147,2148,UNADJUSTEDNONRAW_thumb_236.jpg,UNADJUSTEDNONRAW_thumb_237.jpg,train,train,2,0.9812900424003601
+Healthy leaf,2147,2149,UNADJUSTEDNONRAW_thumb_236.jpg,UNADJUSTEDNONRAW_thumb_239.jpg,train,train,0,0.9830209612846375
+Healthy leaf,2147,2150,UNADJUSTEDNONRAW_thumb_236.jpg,UNADJUSTEDNONRAW_thumb_23a.jpg,train,train,2,0.9796406030654907
+Healthy leaf,2147,2151,UNADJUSTEDNONRAW_thumb_236.jpg,UNADJUSTEDNONRAW_thumb_23b.jpg,train,train,2,0.9768187403678894
+Healthy leaf,2147,5281,UNADJUSTEDNONRAW_thumb_236.jpg,UNADJUSTEDNONRAW_thumb_233.jpg,train,test,6,0.9815178513526917
+Healthy leaf,2147,5282,UNADJUSTEDNONRAW_thumb_236.jpg,UNADJUSTEDNONRAW_thumb_238.jpg,train,test,2,0.9772655963897705
+Healthy leaf,2148,2149,UNADJUSTEDNONRAW_thumb_237.jpg,UNADJUSTEDNONRAW_thumb_239.jpg,train,train,2,0.9697142839431763
+Healthy leaf,2148,2150,UNADJUSTEDNONRAW_thumb_237.jpg,UNADJUSTEDNONRAW_thumb_23a.jpg,train,train,4,0.96529221534729
+Healthy leaf,2148,2151,UNADJUSTEDNONRAW_thumb_237.jpg,UNADJUSTEDNONRAW_thumb_23b.jpg,train,train,4,0.9678201079368591
+Healthy leaf,2148,5281,UNADJUSTEDNONRAW_thumb_237.jpg,UNADJUSTEDNONRAW_thumb_233.jpg,train,test,6,0.9807405471801758
+Healthy leaf,2148,5282,UNADJUSTEDNONRAW_thumb_237.jpg,UNADJUSTEDNONRAW_thumb_238.jpg,train,test,4,0.9748939275741577
+Healthy leaf,2149,2150,UNADJUSTEDNONRAW_thumb_239.jpg,UNADJUSTEDNONRAW_thumb_23a.jpg,train,train,2,0.9937926530838013
+Healthy leaf,2149,2151,UNADJUSTEDNONRAW_thumb_239.jpg,UNADJUSTEDNONRAW_thumb_23b.jpg,train,train,2,0.9955348372459412
+Healthy leaf,2149,5281,UNADJUSTEDNONRAW_thumb_239.jpg,UNADJUSTEDNONRAW_thumb_233.jpg,train,test,6,0.9777871370315552
+Healthy leaf,2149,5282,UNADJUSTEDNONRAW_thumb_239.jpg,UNADJUSTEDNONRAW_thumb_238.jpg,train,test,2,0.9882303476333618
+Healthy leaf,2150,2151,UNADJUSTEDNONRAW_thumb_23a.jpg,UNADJUSTEDNONRAW_thumb_23b.jpg,train,train,0,0.9939115643501282
+Healthy leaf,2150,5281,UNADJUSTEDNONRAW_thumb_23a.jpg,UNADJUSTEDNONRAW_thumb_233.jpg,train,test,8,0.9738447070121765
+Healthy leaf,2150,5282,UNADJUSTEDNONRAW_thumb_23a.jpg,UNADJUSTEDNONRAW_thumb_238.jpg,train,test,0,0.9858345985412598
+Healthy leaf,2151,5281,UNADJUSTEDNONRAW_thumb_23b.jpg,UNADJUSTEDNONRAW_thumb_233.jpg,train,test,8,0.9740302562713623
+Healthy leaf,2151,5282,UNADJUSTEDNONRAW_thumb_23b.jpg,UNADJUSTEDNONRAW_thumb_238.jpg,train,test,0,0.9905922412872314
+Healthy leaf,2153,2154,UNADJUSTEDNONRAW_thumb_23e.jpg,UNADJUSTEDNONRAW_thumb_23f.jpg,train,train,8,0.9651869535446167
+Healthy leaf,2162,2163,UNADJUSTEDNONRAW_thumb_249.jpg,UNADJUSTEDNONRAW_thumb_24b.jpg,train,train,8,0.9758422374725342
+Healthy leaf,2162,5283,UNADJUSTEDNONRAW_thumb_249.jpg,UNADJUSTEDNONRAW_thumb_24a.jpg,train,test,4,0.980907678604126
+Healthy leaf,2163,5283,UNADJUSTEDNONRAW_thumb_24b.jpg,UNADJUSTEDNONRAW_thumb_24a.jpg,train,test,6,0.9908878207206726
+Healthy leaf,2164,2165,UNADJUSTEDNONRAW_thumb_24c.jpg,UNADJUSTEDNONRAW_thumb_24d.jpg,train,train,2,0.9749783873558044
+Healthy leaf,2172,2218,healthy_00009.jpg,healthy_00069.jpg,train,train,6,0.9321637749671936
+Healthy leaf,2172,2232,healthy_00009.jpg,healthy_00088.jpg,train,train,8,0.9378039836883545
+Healthy leaf,2181,5287,healthy_00020.jpg,healthy_00016.jpg,train,test,4,0.9363818764686584
+Healthy leaf,2207,5293,healthy_00053.jpg,healthy_00054.jpg,train,test,6,0.942374050617218
+Healthy leaf,2217,2260,healthy_00068.jpg,healthy_00129.jpg,train,train,8,0.9302899241447449
+Healthy leaf,2218,2232,healthy_00069.jpg,healthy_00088.jpg,train,train,8,0.9355297088623047
+Healthy leaf,2218,4432,healthy_00069.jpg,healthy_00067.jpg,train,val,8,0.9375044703483582
+Healthy leaf,2218,4434,healthy_00069.jpg,healthy_00077.jpg,train,val,8,0.9274419546127319
+Healthy leaf,2291,2296,healthy_00174.jpg,healthy_00180.jpg,train,train,8,0.9238007068634033
+Healthy leaf,2308,4458,healthy_00199.jpg,healthy_00201.jpg,train,val,6,0.9569371342658997
+Healthy leaf,2312,5321,healthy_00205.jpg,healthy_00283.jpg,train,test,8,0.9225655198097229
+Healthy leaf,2362,2363,healthy_00277.jpg,healthy_00278.jpg,train,train,2,0.9320381879806519
+Healthy leaf,2373,2374,healthy_00296.jpg,healthy_00297.jpg,train,train,8,0.9508857727050781
+Healthy leaf,2379,5331,healthy_00308.jpg,healthy_00309.jpg,train,test,6,0.9720869660377502
+Healthy leaf,2392,2393,healthy_00331.jpg,healthy_00332.jpg,train,train,2,0.9579789638519287
+Healthy leaf,2403,4482,healthy_00345.jpg,healthy_00346.jpg,train,val,2,0.9588741660118103
+Healthy leaf,2406,2407,healthy_00350.jpg,healthy_00351.jpg,train,train,8,0.9469085931777954
+Healthy leaf,2480,2525,healthy_00451.jpg,healthy_00513.jpg,train,train,8,0.923977255821228
+Healthy leaf,2507,2511,healthy_00493.jpg,healthy_00497.jpg,train,train,6,0.920056939125061
+Healthy leaf,2646,2647,healthy_00702.jpg,healthy_00703.jpg,train,train,8,0.9277578592300415
+Healthy leaf,2651,2652,healthy_00707.jpg,healthy_00708.jpg,train,train,6,0.9439259171485901
+Healthy leaf,2651,2657,healthy_00707.jpg,healthy_00715.jpg,train,train,6,0.9233651161193848
+Healthy leaf,2682,5389,healthy_00747.jpg,healthy_00748.jpg,train,test,6,0.9480161666870117
+Healthy leaf,2683,2684,healthy_00749.jpg,healthy_00750.jpg,train,train,8,0.944491446018219
+Healthy leaf,2685,5390,healthy_00751.jpg,healthy_00752.jpg,train,test,8,0.9692968726158142
+Healthy leaf,2707,2708,healthy_00783.jpg,healthy_00784.jpg,train,train,8,0.9421817660331726
+Healthy leaf,2712,5396,healthy_00788.jpg,healthy_00789.jpg,train,test,6,0.9554088115692139
+Healthy leaf,2719,2720,healthy_00800.jpg,healthy_00801.jpg,train,train,8,0.9744133353233337
+Healthy leaf,2721,2722,healthy_00802.jpg,healthy_00803.jpg,train,train,4,0.9582082629203796
+Healthy leaf,2721,2749,healthy_00802.jpg,healthy_00841.jpg,train,train,6,0.9237974882125854
+Healthy leaf,2732,2733,healthy_00817.jpg,healthy_00818.jpg,train,train,8,0.9391312599182129
+Healthy leaf,2753,2754,healthy_00846.jpg,healthy_00847.jpg,train,train,4,0.9300965666770935
+Healthy leaf,2776,2777,healthy_00878.jpg,healthy_00879.jpg,train,train,6,0.9359163045883179
+Healthy leaf,4450,5293,healthy_00164.jpg,healthy_00054.jpg,val,test,8,0.9255794286727905
+Healthy leaf,5281,5282,UNADJUSTEDNONRAW_thumb_233.jpg,UNADJUSTEDNONRAW_thumb_238.jpg,test,test,8,0.9757749438285828
+Healthy leaf,5287,5293,healthy_00016.jpg,healthy_00054.jpg,test,test,6,0.9212777018547058
+Healthy leaf,5324,5325,healthy_00293.jpg,healthy_00294.jpg,test,test,2,0.9801733493804932
+Helopeltis,2815,2816,helopeltis_00004.jpg,helopeltis_00005.jpg,train,train,4,0.9606456160545349
+Helopeltis,2857,2861,helopeltis_00054.jpg,helopeltis_00058.jpg,train,train,8,0.9316050410270691
+Helopeltis,2913,2914,helopeltis_00135.jpg,helopeltis_00136.jpg,train,train,8,0.9499349594116211
+Helopeltis,2915,2916,helopeltis_00137.jpg,helopeltis_00138.jpg,train,train,4,0.9382447004318237
+Helopeltis,2919,2920,helopeltis_00143.jpg,helopeltis_00144.jpg,train,train,2,0.9561880230903625
+Helopeltis,2940,4588,helopeltis_00170.jpg,helopeltis_00171.jpg,train,val,6,0.9572530388832092
+Helopeltis,2946,4589,helopeltis_00179.jpg,helopeltis_00178.jpg,train,val,4,0.9536500573158264
+Helopeltis,2980,4599,helopeltis_00233.jpg,helopeltis_00232.jpg,train,val,8,0.9580751657485962
+Helopeltis,3003,3004,helopeltis_00263.jpg,helopeltis_00264.jpg,train,train,2,0.970551609992981
+Helopeltis,3024,3025,helopeltis_00290.jpg,helopeltis_00291.jpg,train,train,4,0.9251235127449036
+Helopeltis,3070,3071,helopeltis_00365.jpg,helopeltis_00366.jpg,train,train,6,0.9510146379470825
+Helopeltis,3077,3078,helopeltis_00374.jpg,helopeltis_00375.jpg,train,train,8,0.9297953844070435
+Helopeltis,3079,4624,helopeltis_00376.jpg,helopeltis_00377.jpg,train,val,8,0.9424857497215271
+Helopeltis,3084,3085,helopeltis_00382.jpg,helopeltis_00383.jpg,train,train,8,0.9529317617416382
+Helopeltis,3104,3105,helopeltis_00410.jpg,helopeltis_00411.jpg,train,train,2,0.9421030879020691
+Helopeltis,3115,5489,helopeltis_00425.jpg,helopeltis_00424.jpg,train,test,4,0.9228135347366333
+Helopeltis,3119,3120,helopeltis_00429.jpg,helopeltis_00430.jpg,train,train,6,0.9677299857139587
+Helopeltis,3135,3136,helopeltis_00451.jpg,helopeltis_00452.jpg,train,train,8,0.9240859746932983
+Helopeltis,3141,3142,helopeltis_00458.jpg,helopeltis_00459.jpg,train,train,6,0.9694636464118958
+Helopeltis,3148,3150,helopeltis_00470.jpg,helopeltis_00474.jpg,train,train,4,0.933506965637207
+Helopeltis,3149,5496,helopeltis_00473.jpg,helopeltis_00472.jpg,train,test,4,0.9315805435180664
+Helopeltis,3158,3159,helopeltis_00489.jpg,helopeltis_00490.jpg,train,train,4,0.9355617761611938
+Helopeltis,3197,3198,helopeltis_00547.jpg,helopeltis_00548.jpg,train,train,0,0.9659156799316406
+Helopeltis,4584,4585,helopeltis_00150.jpg,helopeltis_00151.jpg,val,val,2,0.961569607257843
+Helopeltis,4586,4587,helopeltis_00155.jpg,helopeltis_00156.jpg,val,val,2,0.9663536548614502
+Helopeltis,4597,5461,helopeltis_00211.jpg,helopeltis_00210.jpg,val,test,2,0.9753260612487793
+Red spider,3290,5531,red_spider_00076.jpg,red_spider_00077.jpg,train,test,2,0.9596365690231323
+Red spider,3297,3298,red_spider_00087.jpg,red_spider_00088.jpg,train,train,6,0.9500876665115356
+Red spider,3303,3304,red_spider_00094.jpg,red_spider_00095.jpg,train,train,4,0.963058590888977
+Red spider,3310,3311,red_spider_00101.jpg,red_spider_00102.jpg,train,train,4,0.9710594415664673
+Red spider,3326,5537,red_spider_00122.jpg,red_spider_00123.jpg,train,test,4,0.9573889374732971
+Red spider,3327,5537,red_spider_00124.jpg,red_spider_00123.jpg,train,test,8,0.9301794767379761
+Red spider,3329,3330,red_spider_00126.jpg,red_spider_00127.jpg,train,train,8,0.9435970783233643
+Red spider,3332,3333,red_spider_00129.jpg,red_spider_00130.jpg,train,train,4,0.9593128561973572
+Red spider,3377,3378,red_spider_00192.jpg,red_spider_00194.jpg,train,train,6,0.9530757069587708
+Red spider,3382,4692,red_spider_00198.jpg,red_spider_00199.jpg,train,val,2,0.983984112739563
+Red spider,3399,3400,red_spider_00222.jpg,red_spider_00223.jpg,train,train,6,0.924828052520752
+Red spider,3402,3403,red_spider_00226.jpg,red_spider_00227.jpg,train,train,0,0.9762147665023804
+Red spider,4690,4691,red_spider_00185.jpg,red_spider_00187.jpg,val,val,4,0.9313569068908691
+Red spider,4725,5580,red_spider_00432.jpg,red_spider_00433.jpg,val,test,8,0.9624345898628235
+Red spider,5589,5590,red_spider_00486.jpg,red_spider_00487.jpg,test,test,6,0.9394719004631042
+Tea algal leaf spot,3659,5601,UNADJUSTEDNONRAW_thumb_5c.jpg,UNADJUSTEDNONRAW_thumb_38.jpg,train,test,8,0.9246740341186523
+Tea algal leaf spot,3741,5637,tea_algal_leaf_spot_00099.jpg,tea_algal_leaf_spot_00098.jpg,train,test,8,0.9495534896850586
+Tea algal leaf spot,3743,3744,tea_algal_leaf_spot_00101.jpg,tea_algal_leaf_spot_00102.jpg,train,train,4,0.9455612897872925
+Tea algal leaf spot,3752,3753,tea_algal_leaf_spot_00114.jpg,tea_algal_leaf_spot_00115.jpg,train,train,4,0.958534836769104
+Tea algal leaf spot,3762,4772,tea_algal_leaf_spot_00128.jpg,tea_algal_leaf_spot_00127.jpg,train,val,8,0.9448825120925903
+Tea algal leaf spot,3765,3766,tea_algal_leaf_spot_00133.jpg,tea_algal_leaf_spot_00134.jpg,train,train,4,0.9712010622024536
+Tea algal leaf spot,3767,3768,tea_algal_leaf_spot_00135.jpg,tea_algal_leaf_spot_00136.jpg,train,train,4,0.9597533941268921
+Tea algal leaf spot,3767,4775,tea_algal_leaf_spot_00135.jpg,tea_algal_leaf_spot_00137.jpg,train,val,4,0.9644358158111572
+Tea algal leaf spot,3768,4775,tea_algal_leaf_spot_00136.jpg,tea_algal_leaf_spot_00137.jpg,train,val,0,0.9833542704582214
+Tea algal leaf spot,3774,4776,tea_algal_leaf_spot_00145.jpg,tea_algal_leaf_spot_00144.jpg,train,val,0,0.9766812324523926

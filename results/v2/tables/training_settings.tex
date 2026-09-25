@@ -1,0 +1,36 @@
+% generated from completed run configs -- do not edit by hand
+\begin{table}[t]
+\centering
+\caption{Consolidated training-recipe settings, generated from the completed run configurations of all 24 runs. Every arm within a family uses the same recipe; architecture-specific settings are given in the text.}
+\label{tab:training_settings}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Setting} & \textbf{HSV family (R0--R3)} & \textbf{Token family (C1/TLA/C2/C4)} \\
+\midrule
+Backbone & Swin-S, ImageNet-1k pretrained & Swin-S, ImageNet-1k pretrained \\
+Classifier head (all arms) & MLP 768--384--7 & MLP 768--384--7 \\
+Input size & 224 & 224 \\
+Epoch budget & 100 & 100 \\
+Physical batch size & 64 & 32 \\
+Gradient accumulation & 1 & 2 \\
+Effective batch size & 64 & 64 \\
+Optimizer & AdamW & AdamW \\
+Peak learning rate & $5\times10^{-4}$ & $1\times10^{-4}$ \\
+Weight decay & 0.05 & 0.05 \\
+Weight-decay exemptions & norms, biases, gates & norms, biases, gates \\
+LR warm-up (epochs) & 5 & 5 \\
+Warm-up start / minimum LR & $1\times10^{-6}$ & $1\times10^{-6}$ \\
+DropPath & 0.2 & 0.2 \\
+Label smoothing & 0.1 & 0.1 \\
+EMA decay & 0.9998 & 0.9998 \\
+Gradient clipping ($\ell_2$) & 1.0 & 1.0 \\
+Mixed precision & AMP (FP16) & AMP (FP16) \\
+Data-loader workers & 0 & 0 \\
+Gate warm-up (epochs) & 5 & 10 \\
+Hue jitter & 0.0 & 0.0 \\
+Checkpoint criterion & validation Macro-F1 & validation Macro-F1 \\
+Early-stopping patience & 25 & 25 \\
+Seeds & 42, 1337, 2026 & 42, 1337, 2026 \\
+\bottomrule
+\end{tabular}
+\end{table}

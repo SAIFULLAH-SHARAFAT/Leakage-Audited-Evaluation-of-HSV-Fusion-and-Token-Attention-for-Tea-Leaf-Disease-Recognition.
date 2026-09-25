@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or the audited dataset partition, please cite both this work and the underlying TeaLeafBD release."
+title: "When Color Adds Nothing: Controlled, Leakage-Audited Evidence on HSV Fusion and Token Attention for Tea Leaf Disease Recognition"
+type: software
+authors:
+  - family-names: "Sharafat"
+    given-names: "MD Shaifullah"
+    affiliation: "Electrical and Computer Engineering, North South University"
+  - family-names: "Kabya"
+    given-names: "Nilavro Das"
+    affiliation: "Electrical and Computer Engineering, North South University"
+  - family-names: "Alam"
+    given-names: "Md Nahin"
+    affiliation: "Electrical and Computer Engineering, North South University"
+  - family-names: "Opee"
+    given-names: "Mehrab Karim"
+    affiliation: "Electrical and Computer Engineering, North South University"
+  - family-names: "Islam"
+    given-names: "Mohammad Aminul"
+    affiliation: "Department of Plant Pathology, Habiganj Agricultural University"
+  - family-names: "Khan"
+    given-names: "Riasat"
+    affiliation: "Electrical and Computer Engineering, North South University"
+repository-code: "https://github.com/SAIFULLAH-SHARAFAT/Color_aware_Tea_leaf_classification"
+license: MIT
+references:
+  - type: data
+    title: "TeaLeafBD"
+    repository: "Mendeley Data"
+    doi: "10.17632/744vznw5k2.4"
+    notes: "Underlying image data. Governed by its own licence."

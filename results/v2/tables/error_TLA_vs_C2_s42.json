@@ -1,0 +1,14 @@
+{
+  "campaign_id": "tea_leaf_v2",
+  "a": "TLA_s42",
+  "b": "C2_s42",
+  "purpose": "attention mechanism vs parameter-matched non-attention capacity",
+  "n_test": 808,
+  "both_correct": 769,
+  "a_only_correct": 8,
+  "b_only_correct": 10,
+  "both_wrong": 21,
+  "discordant": 18,
+  "mcnemar_exact_two_sided_p": 0.8145294189453125,
+  "multiplicity_note": "This is one pairwise exact McNemar test. If multiple pairwise tests are used for confirmatory significance claims, define the family and apply an explicit multiple-testing procedure in the statistical analysis plan."
+}

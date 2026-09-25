@@ -1,0 +1,35 @@
+{
+  "manifest_sha256": "d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d",
+  "n_total": 7714,
+  "n_train": 6090,
+  "n_val": 816,
+  "n_test": 808,
+  "n_train_original": 3971,
+  "n_derivatives": 2119,
+  "n_removed_by_perceptual_audit": 79,
+  "n_linked_pairs": 249,
+  "n_cross_partition_pairs": 100,
+  "n_cross_class_pairs": 0,
+  "phash_max": 8,
+  "cosine_min": 0.92,
+  "link_mode": "both",
+  "cross_class_cosine": 0.97,
+  "embed_model": "resnet50",
+  "keep_val_test_dups": false,
+  "classes": [
+    "Brown Blight",
+    "Gray Blight",
+    "Green mirid bug",
+    "Healthy leaf",
+    "Helopeltis",
+    "Red spider",
+    "Tea algal leaf spot"
+  ],
+  "source": "/kaggle/input/datasets/saifullahsharafatfb/tea-leaf701515/tea_leaf_processed_dataset/tea_leaf_processed_dataset",
+  "audits_passed": {
+    "exact": true,
+    "source_family": true,
+    "derivative_confinement": true,
+    "perceptual_near_duplicate": true
+  }
+}

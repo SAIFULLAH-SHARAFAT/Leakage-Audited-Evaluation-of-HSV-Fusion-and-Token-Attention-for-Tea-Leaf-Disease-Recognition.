@@ -1,0 +1,153 @@
+run,experiment,seed,perturbation,group,macro_f1
+R0_s42,R0,42,unperturbed,unperturbed,0.9470599394649717
+R0_s42,R0,42,brightness_up,brightness/contrast,0.9417087907552207
+R0_s42,R0,42,brightness_down,brightness/contrast,0.897107369284842
+R0_s42,R0,42,contrast_low,brightness/contrast,0.9444356603370343
+R0_s42,R0,42,contrast_high,brightness/contrast,0.9430190872821765
+R0_s42,R0,42,saturation_low,saturation,0.9263433600182394
+R0_s42,R0,42,saturation_high,saturation,0.944004679000031
+R0_s42,R0,42,hue_pos,hue shift,0.8911405783157853
+R0_s42,R0,42,hue_neg,hue shift,0.8912125579190983
+R0_s42,R0,42,noise_light,gaussian noise,0.901141732186802
+R0_s42,R0,42,noise_heavy,gaussian noise,0.5037479907068919
+R0_s42,R0,42,blur_light,blur,0.8715026175700055
+R0_s42,R0,42,blur_heavy,blur,0.46736824198963384
+R0_s42,R0,42,jpeg_q60,jpeg compression,0.861688687635714
+R0_s42,R0,42,jpeg_q30,jpeg compression,0.7842771594075166
+R0_s42,R0,42,shadow_left,shadow,0.9415514498041563
+R0_s42,R0,42,shadow_right,shadow,0.9407268092756838
+R0_s42,R0,42,wb_warm,white balance,0.9353705945494498
+R0_s42,R0,42,wb_cool,white balance,0.9188961780072014
+R1_s42,R1,42,unperturbed,unperturbed,0.9390281967688575
+R1_s42,R1,42,brightness_up,brightness/contrast,0.9336667303494313
+R1_s42,R1,42,brightness_down,brightness/contrast,0.9152607520890171
+R1_s42,R1,42,contrast_low,brightness/contrast,0.9404195338809357
+R1_s42,R1,42,contrast_high,brightness/contrast,0.9331196541016205
+R1_s42,R1,42,saturation_low,saturation,0.9329297914986002
+R1_s42,R1,42,saturation_high,saturation,0.9346788446629609
+R1_s42,R1,42,hue_pos,hue shift,0.8783781387350061
+R1_s42,R1,42,hue_neg,hue shift,0.8790810721019275
+R1_s42,R1,42,noise_light,gaussian noise,0.8710679954412123
+R1_s42,R1,42,noise_heavy,gaussian noise,0.32643920682327476
+R1_s42,R1,42,blur_light,blur,0.8584270588069673
+R1_s42,R1,42,blur_heavy,blur,0.34895714751829854
+R1_s42,R1,42,jpeg_q60,jpeg compression,0.8327762860301305
+R1_s42,R1,42,jpeg_q30,jpeg compression,0.7518966521357514
+R1_s42,R1,42,shadow_left,shadow,0.940752035245109
+R1_s42,R1,42,shadow_right,shadow,0.9341582837012963
+R1_s42,R1,42,wb_warm,white balance,0.9220846153404091
+R1_s42,R1,42,wb_cool,white balance,0.9003403793279097
+R2_s42,R2,42,unperturbed,unperturbed,0.9406441883760629
+R2_s42,R2,42,brightness_up,brightness/contrast,0.9380441225835296
+R2_s42,R2,42,brightness_down,brightness/contrast,0.9032721487617481
+R2_s42,R2,42,contrast_low,brightness/contrast,0.9415795656916544
+R2_s42,R2,42,contrast_high,brightness/contrast,0.9410696149001562
+R2_s42,R2,42,saturation_low,saturation,0.9339669564195174
+R2_s42,R2,42,saturation_high,saturation,0.9353818144780828
+R2_s42,R2,42,hue_pos,hue shift,0.8911948393260883
+R2_s42,R2,42,hue_neg,hue shift,0.8888770483173267
+R2_s42,R2,42,noise_light,gaussian noise,0.8729312513520444
+R2_s42,R2,42,noise_heavy,gaussian noise,0.3470594759672316
+R2_s42,R2,42,blur_light,blur,0.8889922578849785
+R2_s42,R2,42,blur_heavy,blur,0.4202051178900418
+R2_s42,R2,42,jpeg_q60,jpeg compression,0.8438359656055192
+R2_s42,R2,42,jpeg_q30,jpeg compression,0.7742450095852068
+R2_s42,R2,42,shadow_left,shadow,0.9407585542102483
+R2_s42,R2,42,shadow_right,shadow,0.9445996296381594
+R2_s42,R2,42,wb_warm,white balance,0.9329770177101719
+R2_s42,R2,42,wb_cool,white balance,0.9217479626043776
+R3_s42,R3,42,unperturbed,unperturbed,0.9348014946839938
+R3_s42,R3,42,brightness_up,brightness/contrast,0.935783621129373
+R3_s42,R3,42,brightness_down,brightness/contrast,0.9007674338225842
+R3_s42,R3,42,contrast_low,brightness/contrast,0.933827208388454
+R3_s42,R3,42,contrast_high,brightness/contrast,0.9300990689075618
+R3_s42,R3,42,saturation_low,saturation,0.9323467205659313
+R3_s42,R3,42,saturation_high,saturation,0.9383172635161385
+R3_s42,R3,42,hue_pos,hue shift,0.8969341403842751
+R3_s42,R3,42,hue_neg,hue shift,0.8916278649899699
+R3_s42,R3,42,noise_light,gaussian noise,0.8802003984666565
+R3_s42,R3,42,noise_heavy,gaussian noise,0.2890800775159115
+R3_s42,R3,42,blur_light,blur,0.8736990487313235
+R3_s42,R3,42,blur_heavy,blur,0.4798181098311483
+R3_s42,R3,42,jpeg_q60,jpeg compression,0.8193050395066541
+R3_s42,R3,42,jpeg_q30,jpeg compression,0.745332904674991
+R3_s42,R3,42,shadow_left,shadow,0.9327251948844156
+R3_s42,R3,42,shadow_right,shadow,0.9320325953394494
+R3_s42,R3,42,wb_warm,white balance,0.9405751644800099
+R3_s42,R3,42,wb_cool,white balance,0.9288205214243914
+C1_s42,C1,42,unperturbed,unperturbed,0.9566273979393491
+C1_s42,C1,42,brightness_up,brightness/contrast,0.9546524380266639
+C1_s42,C1,42,brightness_down,brightness/contrast,0.925264573582358
+C1_s42,C1,42,contrast_low,brightness/contrast,0.9570693652792917
+C1_s42,C1,42,contrast_high,brightness/contrast,0.9494549419099033
+C1_s42,C1,42,saturation_low,saturation,0.9558711409233046
+C1_s42,C1,42,saturation_high,saturation,0.9577066772968147
+C1_s42,C1,42,hue_pos,hue shift,0.9222592033302568
+C1_s42,C1,42,hue_neg,hue shift,0.9179536579797497
+C1_s42,C1,42,noise_light,gaussian noise,0.9168397036109337
+C1_s42,C1,42,noise_heavy,gaussian noise,0.7809561112894833
+C1_s42,C1,42,blur_light,blur,0.8943356191327039
+C1_s42,C1,42,blur_heavy,blur,0.7340031594877109
+C1_s42,C1,42,jpeg_q60,jpeg compression,0.8937936042814039
+C1_s42,C1,42,jpeg_q30,jpeg compression,0.8367966403853577
+C1_s42,C1,42,shadow_left,shadow,0.9606151149497715
+C1_s42,C1,42,shadow_right,shadow,0.9568888059929742
+C1_s42,C1,42,wb_warm,white balance,0.9538222862568179
+C1_s42,C1,42,wb_cool,white balance,0.9549907235176004
+TLA_s42,TLA,42,unperturbed,unperturbed,0.9574364566708019
+TLA_s42,TLA,42,brightness_up,brightness/contrast,0.9491270246395948
+TLA_s42,TLA,42,brightness_down,brightness/contrast,0.9150182581437714
+TLA_s42,TLA,42,contrast_low,brightness/contrast,0.96150763412426
+TLA_s42,TLA,42,contrast_high,brightness/contrast,0.9411183422351489
+TLA_s42,TLA,42,saturation_low,saturation,0.948944659460517
+TLA_s42,TLA,42,saturation_high,saturation,0.9530057151471162
+TLA_s42,TLA,42,hue_pos,hue shift,0.9259031006374897
+TLA_s42,TLA,42,hue_neg,hue shift,0.9095220881958568
+TLA_s42,TLA,42,noise_light,gaussian noise,0.9221966076958956
+TLA_s42,TLA,42,noise_heavy,gaussian noise,0.8025799229717657
+TLA_s42,TLA,42,blur_light,blur,0.8899950420017364
+TLA_s42,TLA,42,blur_heavy,blur,0.7131338547854996
+TLA_s42,TLA,42,jpeg_q60,jpeg compression,0.8727412222208748
+TLA_s42,TLA,42,jpeg_q30,jpeg compression,0.8276423122666482
+TLA_s42,TLA,42,shadow_left,shadow,0.9511724148089221
+TLA_s42,TLA,42,shadow_right,shadow,0.9562373725071659
+TLA_s42,TLA,42,wb_warm,white balance,0.9521699135545177
+TLA_s42,TLA,42,wb_cool,white balance,0.948492687556319
+C2_s42,C2,42,unperturbed,unperturbed,0.9586878638613723
+C2_s42,C2,42,brightness_up,brightness/contrast,0.955861668726319
+C2_s42,C2,42,brightness_down,brightness/contrast,0.9172353197093857
+C2_s42,C2,42,contrast_low,brightness/contrast,0.9558634703937315
+C2_s42,C2,42,contrast_high,brightness/contrast,0.9458118158616358
+C2_s42,C2,42,saturation_low,saturation,0.9636450722344488
+C2_s42,C2,42,saturation_high,saturation,0.9586001936583765
+C2_s42,C2,42,hue_pos,hue shift,0.9309826876819273
+C2_s42,C2,42,hue_neg,hue shift,0.9130207349910007
+C2_s42,C2,42,noise_light,gaussian noise,0.928555531222995
+C2_s42,C2,42,noise_heavy,gaussian noise,0.7819071417013729
+C2_s42,C2,42,blur_light,blur,0.9165011244931544
+C2_s42,C2,42,blur_heavy,blur,0.7522578691065521
+C2_s42,C2,42,jpeg_q60,jpeg compression,0.8848856614437901
+C2_s42,C2,42,jpeg_q30,jpeg compression,0.822110264311125
+C2_s42,C2,42,shadow_left,shadow,0.9584916751737774
+C2_s42,C2,42,shadow_right,shadow,0.9556397560384534
+C2_s42,C2,42,wb_warm,white balance,0.9524091628131307
+C2_s42,C2,42,wb_cool,white balance,0.9602155032489114
+C4_s42,C4,42,unperturbed,unperturbed,0.9478971698067499
+C4_s42,C4,42,brightness_up,brightness/contrast,0.9499147811310207
+C4_s42,C4,42,brightness_down,brightness/contrast,0.9186961626697524
+C4_s42,C4,42,contrast_low,brightness/contrast,0.9476474807192176
+C4_s42,C4,42,contrast_high,brightness/contrast,0.9497352709393297
+C4_s42,C4,42,saturation_low,saturation,0.947353775434624
+C4_s42,C4,42,saturation_high,saturation,0.9568736288242549
+C4_s42,C4,42,hue_pos,hue shift,0.9274902042251651
+C4_s42,C4,42,hue_neg,hue shift,0.9075865170705323
+C4_s42,C4,42,noise_light,gaussian noise,0.9190491088709162
+C4_s42,C4,42,noise_heavy,gaussian noise,0.7889903607246396
+C4_s42,C4,42,blur_light,blur,0.9035129950752723
+C4_s42,C4,42,blur_heavy,blur,0.7690274923839802
+C4_s42,C4,42,jpeg_q60,jpeg compression,0.8839457388145727
+C4_s42,C4,42,jpeg_q30,jpeg compression,0.8321450999985399
+C4_s42,C4,42,shadow_left,shadow,0.9488769879753068
+C4_s42,C4,42,shadow_right,shadow,0.9490424879675808
+C4_s42,C4,42,wb_warm,white balance,0.9554989416952989
+C4_s42,C4,42,wb_cool,white balance,0.9513033752239249

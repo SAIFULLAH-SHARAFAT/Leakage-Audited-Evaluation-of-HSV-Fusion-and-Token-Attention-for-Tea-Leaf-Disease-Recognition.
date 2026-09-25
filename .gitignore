@@ -1,0 +1,45 @@
+# Dataset images are not versioned here. See data/DATASET_CARD.md.
+.tools/
+results/v2/ckpt/
+results/v2/runs/*/model/
+# Post-hoc analyses copy test images for review; keep the copies out of git.
+results/*/analysis/*/images/
+data/hf_snapshot/
+data/Tea_leaf_dataset/
+data/tea_leaf_clean/
+data/raw/
+
+# Run artifacts.
+results/ckpt/
+results/runs/*/model/
+*.pth
+*.pt
+*.ckpt
+*.npy.gz
+
+# Caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+.venv/
+venv/
+
+# LaTeX build
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+
+# Manuscript under review, supplement and response letter: kept locally, not published
+# here until the paper is accepted (the response letter quotes confidential reviews).
+revision.tex
+revision_before_v2.tex
+supplementary.tex
+response_to_reviewers.tex
+alt_framingA_contributions.tex
+tla.tex
+tla.pdf

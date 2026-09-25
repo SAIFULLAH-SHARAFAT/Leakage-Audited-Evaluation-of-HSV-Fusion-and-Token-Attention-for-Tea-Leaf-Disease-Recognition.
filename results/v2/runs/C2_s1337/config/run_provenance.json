@@ -1,0 +1,76 @@
+{
+  "campaign_id": "tea_leaf_v2",
+  "experiment": "C2",
+  "seed": 1337,
+  "run_name": "C2_s1337",
+  "command": [
+    "/SLURM/home/slurm_g202621260/.conda/envs/tealeaf/bin/python",
+    "/SLURM/home/slurm_g202621260/tealeaf/src/train_token_models.py",
+    "--exp_name",
+    "C2_s1337",
+    "--run_dir",
+    "/SLURM/home/slurm_g202621260/tealeaf/results/v2/runs",
+    "--data_root",
+    "/SLURM/home/slurm_g202621260/tealeaf/data/Tea_leaf_dataset",
+    "--ckpt_temp_dir",
+    "/SLURM/home/slurm_g202621260/tealeaf/results/v2/ckpt/C2_s1337",
+    "--seed",
+    "1337",
+    "--campaign_id",
+    "tea_leaf_v2",
+    "--auto_resume",
+    "--pretrained",
+    "--use_ema",
+    "--compute_val_auc",
+    "--epochs",
+    "100",
+    "--batch_size",
+    "32",
+    "--gradient_accumulation_steps",
+    "2",
+    "--lr",
+    "0.0001",
+    "--drop_path_rate",
+    "0.2",
+    "--gate_warmup_epochs",
+    "10",
+    "--hue_jitter",
+    "0.0",
+    "--num_workers",
+    "0",
+    "--no_dp",
+    "--strict_final_counts",
+    "--arch",
+    "adapter",
+    "--adapter_expansion",
+    "3"
+  ],
+  "dataset_manifest_sha256": "d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d",
+  "hf_dataset_lock": {
+    "status": "local_manifest_verified",
+    "resolved_commit_sha": null,
+    "manifest_sha256": "d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d",
+    "note": "Local dataset; historical remote commit not inferred"
+  },
+  "sources": {
+    "train_script": {
+      "path": "src/train_token_models.py",
+      "sha256": "60c93876a16c7a21bd82d87af1e079cd7c5086320277302d1dd8555e1c545ff3"
+    },
+    "experiment_yaml": {
+      "path": "configs/experiments.yaml",
+      "sha256": "bacb549e83c472106e10f6fda8dfa2e0777ead784147a2b2af789d4c3bad2cb8"
+    },
+    "shared_swin_script": {
+      "path": "src/train_swin_three_models.py",
+      "sha256": "a9fa5f8170cfd2c898d58e31040ff5d54b6b38e45f06c969e7b92850829d094f"
+    },
+    "training_contracts": {
+      "path": "src/training_contracts.py",
+      "sha256": "97abcc1cbc398eb3b0d6732f98ff60107f4910007aef0af43ddbb91646aa6354"
+    }
+  },
+  "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:25:55) [GCC 14.3.0]",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "recorded_utc": "2026-09-23T06:40:52.211943+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "campaign_id": "tea_leaf_v2",
+  "a": "TLA_s42",
+  "b": "C1_s42",
+  "purpose": "token attention vs recipe/head-matched no-token control",
+  "n_test": 808,
+  "both_correct": 768,
+  "a_only_correct": 9,
+  "b_only_correct": 8,
+  "both_wrong": 23,
+  "discordant": 17,
+  "mcnemar_exact_two_sided_p": 1.0,
+  "multiplicity_note": "This is one pairwise exact McNemar test. If multiple pairwise tests are used for confirmatory significance claims, define the family and apply an explicit multiple-testing procedure in the statistical analysis plan."
+}

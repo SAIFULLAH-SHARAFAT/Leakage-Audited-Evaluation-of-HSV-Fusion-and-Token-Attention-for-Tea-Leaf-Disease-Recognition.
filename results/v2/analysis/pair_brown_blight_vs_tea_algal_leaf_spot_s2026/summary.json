@@ -1,0 +1,408 @@
+{
+  "campaign_id": "tea_leaf_v2",
+  "seed": 2026,
+  "pair": [
+    "Brown Blight",
+    "Tea algal leaf spot"
+  ],
+  "arms": [
+    "C1",
+    "C2",
+    "C4",
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "TLA"
+  ],
+  "n_train_originals": {
+    "Brown Blight": 433,
+    "Tea algal leaf spot": 372
+  },
+  "n_test": {
+    "Brown Blight": 86,
+    "Tea algal leaf spot": 78
+  },
+  "lesion_mask": {
+    "hue_max": 50.0,
+    "hue_wrap_min": 330.0,
+    "s_min": 0.18,
+    "v_min": 0.12,
+    "v_max": 0.97,
+    "min_component_px": 4
+  },
+  "Q1_pair_confusion_by_arm": [
+    {
+      "arm": "C1",
+      "family": "token",
+      "Brown Blight -> Tea algal leaf spot": 7,
+      "Tea algal leaf spot -> Brown Blight": 2,
+      "recall Brown Blight": 0.9186,
+      "recall Tea algal leaf spot": 0.9487,
+      "mean p(Tea algal leaf spot | true Brown Blight)": 0.0944,
+      "mean p(Brown Blight | true Tea algal leaf spot)": 0.0584
+    },
+    {
+      "arm": "C2",
+      "family": "token",
+      "Brown Blight -> Tea algal leaf spot": 11,
+      "Tea algal leaf spot -> Brown Blight": 4,
+      "recall Brown Blight": 0.8721,
+      "recall Tea algal leaf spot": 0.9231,
+      "mean p(Tea algal leaf spot | true Brown Blight)": 0.12,
+      "mean p(Brown Blight | true Tea algal leaf spot)": 0.0679,
+      "pair_confusions_minus_baseline": 6
+    },
+    {
+      "arm": "C4",
+      "family": "token",
+      "Brown Blight -> Tea algal leaf spot": 11,
+      "Tea algal leaf spot -> Brown Blight": 1,
+      "recall Brown Blight": 0.8721,
+      "recall Tea algal leaf spot": 0.9615,
+      "mean p(Tea algal leaf spot | true Brown Blight)": 0.1297,
+      "mean p(Brown Blight | true Tea algal leaf spot)": 0.0626,
+      "pair_confusions_minus_baseline": 3
+    },
+    {
+      "arm": "R0",
+      "family": "hsv",
+      "Brown Blight -> Tea algal leaf spot": 5,
+      "Tea algal leaf spot -> Brown Blight": 5,
+      "recall Brown Blight": 0.9419,
+      "recall Tea algal leaf spot": 0.9103,
+      "mean p(Tea algal leaf spot | true Brown Blight)": 0.0961,
+      "mean p(Brown Blight | true Tea algal leaf spot)": 0.0824
+    },
+    {
+      "arm": "R1",
+      "family": "hsv",
+      "Brown Blight -> Tea algal leaf spot": 6,
+      "Tea algal leaf spot -> Brown Blight": 6,
+      "recall Brown Blight": 0.9302,
+      "recall Tea algal leaf spot": 0.8974,
+      "mean p(Tea algal leaf spot | true Brown Blight)": 0.0906,
+      "mean p(Brown Blight | true Tea algal leaf spot)": 0.0838,
+      "pair_confusions_minus_baseline": 2
+    },
+    {
+      "arm": "R2",
+      "family": "hsv",
+      "Brown Blight -> Tea algal leaf spot": 6,
+      "Tea algal leaf spot -> Brown Blight": 3,
+      "recall Brown Blight": 0.9186,
+      "recall Tea algal leaf spot": 0.9231,
+      "mean p(Tea algal leaf spot | true Brown Blight)": 0.0952,
+      "mean p(Brown Blight | true Tea algal leaf spot)": 0.0694,
+      "pair_confusions_minus_baseline": -1
+    },
+    {
+      "arm": "R3",
+      "family": "hsv",
+      "Brown Blight -> Tea algal leaf spot": 8,
+      "Tea algal leaf spot -> Brown Blight": 5,
+      "recall Brown Blight": 0.8953,
+      "recall Tea algal leaf spot": 0.8974,
+      "mean p(Tea algal leaf spot | true Brown Blight)": 0.102,
+      "mean p(Brown Blight | true Tea algal leaf spot)": 0.0796,
+      "pair_confusions_minus_baseline": 3
+    },
+    {
+      "arm": "TLA",
+      "family": "token",
+      "Brown Blight -> Tea algal leaf spot": 9,
+      "Tea algal leaf spot -> Brown Blight": 3,
+      "recall Brown Blight": 0.8953,
+      "recall Tea algal leaf spot": 0.9359,
+      "mean p(Tea algal leaf spot | true Brown Blight)": 0.1106,
+      "mean p(Brown Blight | true Tea algal leaf spot)": 0.0595,
+      "pair_confusions_minus_baseline": 3
+    }
+  ],
+  "Q2_colour_only_separability": {
+    "global_mean": {
+      "test_auc": 0.6424,
+      "test_auc_ci95": [
+        0.5541,
+        0.7269
+      ],
+      "test_balanced_accuracy": 0.5903,
+      "train_cv_auc": 0.5574,
+      "n_features": 6
+    },
+    "global_hist": {
+      "test_auc": 0.6604,
+      "test_auc_ci95": [
+        0.5737,
+        0.7401
+      ],
+      "test_balanced_accuracy": 0.5985,
+      "train_cv_auc": 0.5021,
+      "n_features": 34
+    },
+    "lesion_colour": {
+      "test_auc": 0.7074,
+      "test_auc_ci95": [
+        0.6185,
+        0.7847
+      ],
+      "test_balanced_accuracy": 0.6787,
+      "train_cv_auc": 0.6689,
+      "n_features": 26
+    },
+    "lesion_morph": {
+      "test_auc": 0.7354,
+      "test_auc_ci95": [
+        0.6537,
+        0.8119
+      ],
+      "test_balanced_accuracy": 0.6817,
+      "train_cv_auc": 0.7374,
+      "n_features": 4
+    },
+    "lesion_all": {
+      "test_auc": 0.8168,
+      "test_auc_ci95": [
+        0.7476,
+        0.8775
+      ],
+      "test_balanced_accuracy": 0.7707,
+      "train_cv_auc": 0.71,
+      "n_features": 30
+    }
+  },
+  "Q3_lesion_extent_and_colour": {
+    "train_originals": {
+      "Brown Blight": {
+        "lesion_frac_of_image": {
+          "n": 433,
+          "median": 0.04572,
+          "q25": 0.02657,
+          "q75": 0.07621
+        },
+        "lesion_frac_of_leaf": {
+          "n": 433,
+          "median": 0.1656,
+          "q25": 0.09967,
+          "q75": 0.27803
+        },
+        "leaf_frac_of_image": {
+          "n": 433,
+          "median": 0.2793,
+          "q25": 0.20667,
+          "q75": 0.37651
+        },
+        "mask_frac_on_margin": {
+          "n": 433,
+          "median": 0.1519,
+          "q25": 0.1056,
+          "q75": 0.2148
+        },
+        "mask_frac_on_paper": {
+          "n": 433,
+          "median": 0.0027,
+          "q25": 0.0012,
+          "q75": 0.008
+        },
+        "images_with_lt_0.1pct_lesion": 0,
+        "lesion_hue_deg": {
+          "n": 433,
+          "median": 36.15,
+          "q25": 32.21,
+          "q75": 38.88
+        },
+        "lesion_saturation": {
+          "n": 433,
+          "median": 0.4986,
+          "q25": 0.4228,
+          "q75": 0.5478
+        },
+        "components": {
+          "n": 433,
+          "median": 25.0,
+          "q25": 17.0,
+          "q75": 37.0
+        }
+      },
+      "Tea algal leaf spot": {
+        "lesion_frac_of_image": {
+          "n": 372,
+          "median": 0.02613,
+          "q25": 0.01453,
+          "q75": 0.0552
+        },
+        "lesion_frac_of_leaf": {
+          "n": 372,
+          "median": 0.10378,
+          "q25": 0.05859,
+          "q75": 0.18724
+        },
+        "leaf_frac_of_image": {
+          "n": 372,
+          "median": 0.27899,
+          "q25": 0.21114,
+          "q75": 0.35564
+        },
+        "mask_frac_on_margin": {
+          "n": 372,
+          "median": 0.16095,
+          "q25": 0.10902,
+          "q75": 0.2356
+        },
+        "mask_frac_on_paper": {
+          "n": 372,
+          "median": 0.0031,
+          "q25": 0.0012,
+          "q75": 0.00843
+        },
+        "images_with_lt_0.1pct_lesion": 1,
+        "lesion_hue_deg": {
+          "n": 372,
+          "median": 39.65,
+          "q25": 36.6625,
+          "q75": 41.845
+        },
+        "lesion_saturation": {
+          "n": 372,
+          "median": 0.49435,
+          "q25": 0.439,
+          "q75": 0.57905
+        },
+        "components": {
+          "n": 372,
+          "median": 31.0,
+          "q25": 18.0,
+          "q75": 45.0
+        }
+      },
+      "mannwhitney_p_lesion_frac_of_image": 3.785359122053911e-12,
+      "mannwhitney_p_lesion_frac_of_leaf": 3.1480352002601727e-13,
+      "mannwhitney_p_leaf_frac_of_image": 0.8093668203090074,
+      "mannwhitney_p_lesion_hue_deg": 1.9553196887243673e-26,
+      "mannwhitney_p_lesion_saturation": 0.014627803915781317,
+      "mannwhitney_p_components": 0.00030367853472212713
+    },
+    "test": {
+      "Brown Blight": {
+        "lesion_frac_of_image": {
+          "n": 86,
+          "median": 0.05444,
+          "q25": 0.03121,
+          "q75": 0.08725
+        },
+        "lesion_frac_of_leaf": {
+          "n": 86,
+          "median": 0.17913,
+          "q25": 0.10074,
+          "q75": 0.27457
+        },
+        "leaf_frac_of_image": {
+          "n": 86,
+          "median": 0.33214,
+          "q25": 0.26322,
+          "q75": 0.42885
+        },
+        "mask_frac_on_margin": {
+          "n": 86,
+          "median": 0.1514,
+          "q25": 0.09785,
+          "q75": 0.20672
+        },
+        "mask_frac_on_paper": {
+          "n": 86,
+          "median": 0.00245,
+          "q25": 0.0011,
+          "q75": 0.00617
+        },
+        "images_with_lt_0.1pct_lesion": 0,
+        "lesion_hue_deg": {
+          "n": 86,
+          "median": 35.33,
+          "q25": 32.7275,
+          "q75": 39.12
+        },
+        "lesion_saturation": {
+          "n": 86,
+          "median": 0.47345,
+          "q25": 0.37205,
+          "q75": 0.53853
+        },
+        "components": {
+          "n": 86,
+          "median": 32.5,
+          "q25": 21.25,
+          "q75": 46.5
+        }
+      },
+      "Tea algal leaf spot": {
+        "lesion_frac_of_image": {
+          "n": 78,
+          "median": 0.02663,
+          "q25": 0.01496,
+          "q75": 0.04813
+        },
+        "lesion_frac_of_leaf": {
+          "n": 78,
+          "median": 0.10738,
+          "q25": 0.0524,
+          "q75": 0.1753
+        },
+        "leaf_frac_of_image": {
+          "n": 78,
+          "median": 0.29434,
+          "q25": 0.23606,
+          "q75": 0.35658
+        },
+        "mask_frac_on_margin": {
+          "n": 78,
+          "median": 0.14825,
+          "q25": 0.10805,
+          "q75": 0.2391
+        },
+        "mask_frac_on_paper": {
+          "n": 78,
+          "median": 0.003,
+          "q25": 0.00072,
+          "q75": 0.00762
+        },
+        "images_with_lt_0.1pct_lesion": 0,
+        "lesion_hue_deg": {
+          "n": 78,
+          "median": 39.495,
+          "q25": 37.1425,
+          "q75": 41.2825
+        },
+        "lesion_saturation": {
+          "n": 78,
+          "median": 0.49605,
+          "q25": 0.43757,
+          "q75": 0.5742
+        },
+        "components": {
+          "n": 78,
+          "median": 30.0,
+          "q25": 21.0,
+          "q75": 45.75
+        }
+      }
+    }
+  },
+  "Q4_networks_vs_colour": {
+    "colour_model": "lesion_colour",
+    "table_rows_colour_correct_then_wrong_cols_networks_ok_then_majority_confused": [
+      [
+        110,
+        1
+      ],
+      [
+        46,
+        7
+      ]
+    ],
+    "fisher_exact_p": 0.0016491313810156273,
+    "mean_arms_confused_when_colour_correct": 0.198,
+    "mean_arms_confused_when_colour_wrong": 1.321
+  },
+  "Q5_embeddings_and_gates": null,
+  "note": "Post-hoc exploratory analysis; not a predeclared comparison. The lesion mask is a colour heuristic, not a segmentation."
+}

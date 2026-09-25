@@ -1,0 +1,112 @@
+defaults:
+  campaign_id: tea_leaf_future_designs_v1
+
+  data_root: data/Tea_leaf_dataset
+  manifest_csv: data/manifests/final_split_manifest.csv
+  manifest_fingerprint: data/manifests/final_fingerprint.json
+  expected_manifest_sha256: d407fdb133ebc95c3b0bc6f815280786bcdef37cd6c3c009192198fd21943d3d
+
+  results_dir: results/future_designs/runs
+  ckpt_dir: results/future_designs/ckpt
+  tables_dir: results/future_designs/tables
+
+status: >-
+  Design-only and deliberately non-executable. No design below may be trained
+  until every go_no_go gate passes and every requirements_before_training item is
+  done. Not part of the tea_leaf_v2 evidence, and cannot join that paper: its test
+  results have been inspected, so any future design is a new predeclared campaign.
+
+source_inspirations:
+  decode_branch: "arXiv 2608.12385v2 (Decode-Branch Transformer)"
+  grouped_value_attention: "arXiv 2609.13285v2 (Grouped Value Attention)"
+
+future_campaign:
+  seeds: [42, 1337, 2026]
+  # Extra parameters exclude any optional readout; every branch reuses the shared
+  # classifier head unless stated. attention_passes counts per-block attention
+  # evaluations (primary + branch). Regenerate with fd_scripts/08_cost_accounting.py.
+  designs:
+    F0:
+      label: shared-weight RGB/HSV dual trajectory with independent self-attention
+      role: weight-sharing baseline
+      extra_params: 6240
+      attention_passes: 2
+    F1:
+      label: asymmetric shared-KV colour branch with a/b/c coupling
+      role: primary proposed method
+      extra_params: 60384
+      attention_passes: 2
+    F2:
+      label: minimal asymmetric shared-KV branch with a/c coupling
+      role: ultra-light ablation of F1
+      extra_params: 24288
+      attention_passes: 2
+    F3:
+      label: confidence-gated mixture readout on top of F1
+      role: readout ablation
+      variants: [decode_branch_collision, normalized_7class_collision]
+      extra_params: 0
+      precondition: >-
+        Report prediction_diversity(primary, colour head) on validation. A mixture
+        can only recover images exactly one head gets right; if the heads' error
+        phi is close to 1 there is nothing for F3 to mix.
+    F4:
+      label: attention-ablation gated-copy control
+      role: >-
+        F1 with the branch attention sub-layer replaced by g * primary attention
+        output; MLP sub-layer and b/c couplings unchanged. Parameter-matched to F1
+        (g replaces a) but ONE attention pass per block -- tests whether the
+        branch's own attention pass matters. Not compute-matched.
+      extra_params: 60384
+      attention_passes: 1
+    F5:
+      label: information-null compute-matched control
+      role: >-
+        F1's exact graph, couplings, stem and readout, with the branch stem fed
+        [R, G, B, Y] (rgb_luma_rep) instead of sin/cos HSV. Identical parameters
+        and compute to F1 and no information the primary lacks, so F1 vs F5
+        isolates the chromatic re-parameterisation from extra compute and capacity.
+      extra_params: 60384
+      attention_passes: 2
+
+  # Frozen before any future test result is read. Report pointwise intervals and
+  # state that they are not multiplicity-adjusted, as the current campaign does.
+  preregistered_comparisons:
+    - {a: F1, b: RGB, purpose: does the colour branch help at all}
+    - {a: F1, b: F5, purpose: chromatic information vs equal compute and parameters (primary claim)}
+    - {a: F1, b: F4, purpose: does the branch's own attention pass matter}
+    - {a: F1, b: F2, purpose: faithful a/b/c vs minimal a/c coupling}
+    - {a: F1, b: F0, purpose: shared-KV vs independent self-attention}
+    - {a: F3, b: F1, purpose: does the confidence-mixture readout add anything}
+
+go_no_go:
+  robustness:
+    statement: >-
+      Run 08_eval_robustness.py --planned on the finished current campaign. Go only
+      if at least one HSV arm (R1-R3) differs from R0 under the colour perturbations
+      (hue, saturation, white balance) by more than its paired-bootstrap interval,
+      in either direction. Clean accuracy already shows no HSV gain.
+  power:
+    statement: >-
+      Run fd_scripts/07_power_analysis.py on the intended evaluation set. Go only
+      if the median minimum detectable effect at 80% power is at most the stated
+      fraction of the contestable headroom on that set.
+    max_mde80_fraction_of_headroom: 0.5
+  evidence:
+    statement: >-
+      Evidence from scripts/18_confusable_pair_analysis.py must be addressed in the
+      design, not ignored: across the three tea_leaf_v2 seeds no HSV arm beat R0, the
+      widest-opening R1-R3 gate fell on Tea algal leaf spot or Brown Blight in 8 of 9
+      runs, and Brown Blight vs Tea algal leaf spot lesions differ by a few degrees of
+      hue while occupying a few percent of the image. The seed-42 negative correlation
+      between per-class gate and per-class F1 change did not replicate on seed 1337 and
+      is not evidence.
+
+requirements_before_training:
+  - every go_no_go gate passes on the intended evaluation set
+  - pin timm version after running 05_inspect_timm_swin_api.py
+  - implement and unit-test a block adapter that preserves Swin window/shift semantics
+  - verify primary forward invariance for fixed weights
+  - verify added parameter count and FLOPs against 08_cost_accounting.py
+  - implement F5 (rgb_luma_rep) alongside F1 -- F1 cannot be interpreted without it
+  - freeze experiment matrix and preregistered_comparisons before reading test results

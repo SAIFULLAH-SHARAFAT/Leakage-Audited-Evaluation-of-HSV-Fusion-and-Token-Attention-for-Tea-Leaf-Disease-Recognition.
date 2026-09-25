@@ -1,0 +1,8 @@
+class_name,train,val,test,total
+Brown Blight,858,83,86,1027
+Gray Blight,896,163,160,1219
+Green mirid bug,897,185,179,1261
+Healthy leaf,893,147,141,1181
+Helopeltis,863,86,89,1038
+Red spider,835,76,75,986
+Tea algal leaf spot,848,76,78,1002
