@@ -1,7 +1,5 @@
 # Leakage-Audited Evaluation of HSV Fusion and Token Attention for Tea Leaf Disease Recognition
 
-Repository: <https://github.com/SAIFULLAH-SHARAFAT/Leakage-Audited-Evaluation-of-HSV-Fusion-and-Token-Attention-for-Tea-Leaf-Disease-Recognition.>
-
 This repository holds our code, our dataset audit, and the full evidence trail for a study
 on classifying tea leaf diseases and pests from photographs of single leaves. There are
 seven classes — Brown Blight, Gray Blight, Green mirid bug, Healthy leaf, Helopeltis, Red
