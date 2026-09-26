@@ -1,4 +1,6 @@
-# Tea Leaf Disease and Pest Classification — Experiment Suite
+# Leakage-Audited Evaluation of HSV Fusion and Token Attention for Tea Leaf Disease Recognition
+
+Repository: <https://github.com/SAIFULLAH-SHARAFAT/Leakage-Audited-Evaluation-of-HSV-Fusion-and-Token-Attention-for-Tea-Leaf-Disease-Recognition.>
 
 This repository holds our code, our dataset audit, and the full evidence trail for a study
 on classifying tea leaf diseases and pests from photographs of single leaves. There are
@@ -18,15 +20,18 @@ Eight models, three seeds (42, 1337, 2026), twenty-four training runs.
 
 ### What we found
 
-Neither add-on helps. Under matched controls, `TLA` does not detectably improve on `C1` on
-any seed (95.11 ± 0.71 vs 95.41 ± 0.26 test Macro-F1) and scores below the parameter-matched
-MLP `C2` on all three seeds. No HSV variant improves on `R0` (94.28 ± 0.47). None of the 24
-predeclared paired-bootstrap intervals excludes zero, and no add-on improves robustness to
-18 synthetic corruptions. The largest effect in the study is the training recipe itself: the
+Neither add-on gives a detectable improvement under this protocol. Under matched controls,
+`TLA` does not detectably improve on `C1` on any seed (95.11 ± 0.71 vs 95.41 ± 0.26 test
+Macro-F1) and scores below the parameter-matched MLP `C2` on all three seeds. No HSV variant
+shows a detectable improvement over `R0` (94.28 ± 0.47). None of the 24 predeclared
+paired-bootstrap intervals excludes zero — which means no detectable difference at this
+test-set size, not proof of equivalence — and no add-on shows a detectable robustness
+improvement under 18 synthetic corruptions. The largest effect in the study is the training recipe itself: the
 same network (`R0` vs `C1`) differs by about 1.1 Macro-F1 points clean and 6 points under
 perturbation. For the hardest pair, Brown Blight versus Tea algal leaf spot, lesion hue
-differs by only about 3.5°, and the RGB backbone already separates the pair far better than
-colour features do. We committed a decision rule for how to frame the paper before scoring
+differs by only about 3.5°, and under a linear probe the RGB backbone features separate the
+pair far better than colour features do. We deploy `C1`, the model without an add-on, in our
+server-assisted prototype. We committed a decision rule for how to frame the paper before scoring
 the last two seeds; it selected the controlled-evaluation framing (see
 `docs/FRAMING_DECISION_RULE.md`).
 
@@ -920,7 +925,7 @@ each seed was trained, and which runs were resumed, is recorded in `docs/reprodu
 | Aggregation, paired bootstrap, McNemar, settings table, init-scale summary, figures | done, all three seeds |
 | Framing decision (`docs/FRAMING_DECISION_RULE.md`) | **Framing B**: TLA vs C1 favours TLA on 0 of 3 seeds, TLA is below C2 on all three, and none of the 24 predeclared intervals excludes zero |
 | Consensus failures and the Brown Blight / Tea algal leaf spot analysis | done, all three seeds (backbone probes on seed 42) |
-| Controlled robustness (`08`, merged by `21`) | done, 24 runs × 18 corruptions; no add-on improves robustness over its matched baseline |
+| Controlled robustness (`08`, merged by `21`) | done, 24 runs × 18 corruptions; no add-on shows a detectable robustness improvement over its matched baseline |
 | Derivative-vs-evaluation leakage audit (`16`) | done, 0 linked pairs |
 
 ---
