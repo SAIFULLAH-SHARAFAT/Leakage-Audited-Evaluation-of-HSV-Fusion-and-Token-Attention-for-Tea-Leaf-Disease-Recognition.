@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or the audited dataset partition, please cite both this work and the underlying TeaLeafBD release."
-title: "When Color Adds Nothing: Controlled, Leakage-Audited Evidence on HSV Fusion and Token Attention for Tea Leaf Disease Recognition"
+title: "Leakage-Audited Evaluation of HSV Fusion and Token Attention for Tea Leaf Disease Recognition"
 type: software
 authors:
   - family-names: "Sharafat"
@@ -21,7 +21,7 @@ authors:
   - family-names: "Khan"
     given-names: "Riasat"
     affiliation: "Electrical and Computer Engineering, North South University"
-repository-code: "https://github.com/SAIFULLAH-SHARAFAT/Color_aware_Tea_leaf_classification"
+repository-code: "https://github.com/SAIFULLAH-SHARAFAT/Leakage-Audited-Evaluation-of-HSV-Fusion-and-Token-Attention-for-Tea-Leaf-Disease-Recognition."
 license: MIT
 references:
   - type: data
