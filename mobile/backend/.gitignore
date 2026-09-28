@@ -1,0 +1,7 @@
+__pycache__
+*.md
+*.pth
+.DS_Store
+*.pem
+env
+!requirements.txt

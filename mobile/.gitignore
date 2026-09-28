@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+*.pem
+env
+*.md
+*.txt
+!README.md
+validate.py/frontend/.env
